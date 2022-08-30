@@ -1,0 +1,890 @@
+﻿<sitecore>
+  <phrase path="/sitecore/media library/Files/News/NBBJ_Is_it_time_072808" key="NBBJ_Is_it_time_072808" itemid="{02B87752-3F17-43DD-B218-09C93504015E}" fieldid="Title" updated="20220822T142326Z">
+    <en>NBBJ_Is_it_time_072808</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/NH_NursingHomeArbitration_Furguson" key="NH_NursingHomeArbitration_Furguson" itemid="{DF216301-CC73-4557-A0B5-94E5C3A42E3C}" fieldid="Title" updated="20220822T142333Z">
+    <en>NH_NursingHomeArbitration_Furguson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/NLJ_071108_Baer" key="NLJ_071108_Baer" itemid="{F0231BD4-D66B-451B-BC39-30DDA8F49DCB}" fieldid="Title" updated="20220822T142341Z">
+    <en>NLJ_071108_Baer</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/NorthBayBusinessJournal_July-2007" key="NorthBayBusinessJournal_July-2007" itemid="{C67D7E5B-AE51-4AD5-8E04-CCF894AE4DC7}" fieldid="Title" updated="20220822T142348Z">
+    <en>NorthBayBusinessJournal_July-2007</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/Range_VictoryAtPineCreek_Fall08" key="Range_VictoryAtPineCreek_Fall08" itemid="{55528CC5-A987-4353-A20D-72B3058341B5}" fieldid="Title" updated="20220822T142354Z">
+    <en>Range_VictoryAtPineCreek_Fall08</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/Recorder_Hanson_Bridgett_IP_1110" key="Recorder_Hanson_Bridgett_IP_1110" itemid="{F30C9A82-B55B-458F-BD41-FA741450E01B}" fieldid="Title" updated="20220822T142400Z">
+    <en>Recorder_Hanson_Bridgett_IP_1110</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/recorder_mcquaid_firm_052308" key="recorder_mcquaid_firm_052308" itemid="{876A7E91-D9AC-44D0-A7AA-1581EC7C8C3E}" fieldid="Title" updated="20220822T142407Z">
+    <en>recorder_mcquaid_firm_052308</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/recorder_shielding_green" key="recorder_shielding_green" itemid="{9E2F4378-5A2A-4C87-B434-BBB50FA5E12A}" fieldid="Title" updated="20220822T142413Z">
+    <en>recorder_shielding_green</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/registry_june08" key="registry_june08" itemid="{8ECB0F4A-F93F-4AE0-BDD1-10DFE053F13F}" fieldid="Title" updated="20220822T142420Z">
+    <en>registry_june08</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/San-Francisco-Attorney-Magazine-law-firm-clients-sustainability-2008" key="San-Francisco-Attorney-Magazine-law-firm-clients-sustainability-2008" itemid="{1AC02490-123F-4C47-BE8F-07568DD3BAB1}" fieldid="Title" updated="20220822T142427Z">
+    <en>San-Francisco-Attorney-Magazine-law-firm-clients-sustainability-2008</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/sfbt-SEC_ProposesSignificantNewRules" key="sfbt-SEC_ProposesSignificantNewRules" itemid="{16BA41F5-C787-4327-896C-BAB56F0138B8}" fieldid="Title" updated="20220822T142436Z">
+    <en>sfbt-SEC_ProposesSignificantNewRules</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/SFDailyJournal_090707" key="SFDailyJournal_090707" itemid="{0A92DD1B-61BB-4C88-9E3F-C739A3B43B5B}" fieldid="Title" updated="20220822T142442Z">
+    <en>SFDailyJournal_090707</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/SFDJ_contestin_no_contest" key="SFDJ_contestin_no_contest" itemid="{76B7FD13-CDEF-4361-BBA0-4AFAA3B771D4}" fieldid="Title" updated="20220822T142450Z">
+    <en>SFDJ_contestin_no_contest</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/SustainableIndustries_July_2008" key="SustainableIndustries_July_2008" itemid="{DBC13E18-82E9-41CD-ABBC-CD9329B1DEA9}" fieldid="Title" updated="20220822T142456Z">
+    <en>SustainableIndustries_July_2008</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/TC_TOD-Projects" key="TC_TOD-Projects" itemid="{819DE5A6-BFF6-4DF6-B7A1-2FBE32F87D8E}" fieldid="Title" updated="20220822T142503Z">
+    <en>TC_TOD-Projects</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/TheRegistry_NotSoGoldenYears_Aug09" key="TheRegistry_NotSoGoldenYears_Aug09" itemid="{38EF666D-25B2-43EC-BA44-60F7D6ADD21A}" fieldid="Title" updated="20220822T142510Z">
+    <en>TheRegistry_NotSoGoldenYears_Aug09</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/TheRegistry_Nov08" key="TheRegistry_Nov08" itemid="{5659DBF2-AA2D-4326-94F4-3056833694D3}" fieldid="Title" updated="20220822T142518Z">
+    <en>TheRegistry_Nov08</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/Trans_DJ_2007-0612" key="Trans_DJ_2007-0612" itemid="{0E8F8D0A-07D4-478D-B6B9-63AFD2F1C70B}" fieldid="Title" updated="20220822T142525Z">
+    <en>Trans_DJ_2007-0612</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/News/TrustsEstatesLegalStrategies" key="TrustsEstatesLegalStrategies" itemid="{95AFF098-FE22-4367-B72F-F4EE26FCAF4D}" fieldid="Title" updated="20220822T142535Z">
+    <en>TrustsEstatesLegalStrategies</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Newsletters/diversity-newsletter-spring-2012" key="diversity-newsletter-spring-2012" itemid="{F3AC7210-C340-49C6-974D-76D0F526BDBE}" fieldid="Title" updated="20220822T142543Z">
+    <en>diversity-newsletter-spring-2012</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Newsletters/diversity-newsletter-summer-2014" key="diversity-newsletter-summer-2014" itemid="{F96C1B5A-8A0C-4DDA-A570-A2A6B123AB14}" fieldid="Title" updated="20220822T142552Z">
+    <en>diversity-newsletter-summer-2014</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Newsletters/diversity-newsletter-winter-2012" key="diversity-newsletter-winter-2012" itemid="{AFF5419F-3A18-40C0-973F-81F6419B6888}" fieldid="Title" updated="20220822T142605Z">
+    <en>diversity-newsletter-winter-2012</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Newsletters/Life Care Services/2022-06/LCS Quarterly Update  Allen Flores COVID19 Preparedness and Response Plan 62322" key="LCS Quarterly Update  Allen Flores COVID19 Preparedness and Response Plan 62322" itemid="{5B41FFFA-13CD-44A4-B917-778FCA550DC8}" fieldid="Title" updated="20220822T142612Z">
+    <en>LCS Quarterly Update Allen Flores COVID19 Preparedness and Response Plan 62322</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Newsletters/Life Care Services/2022-06/LCS Quarterly Update  DSS PIN2216ASC 62322" key="LCS Quarterly Update  DSS PIN2216ASC 62322" itemid="{9B81450F-124C-4398-B173-97953AD800DD}" fieldid="Title" updated="20220822T142620Z">
+    <en>LCS Quarterly Update DSS PIN2216ASC 62322</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2017_HB_Mid_Year_Labor_Seminar" key="2017_HB_Mid_Year_Labor_Seminar" itemid="{920AE4BA-45C0-4A66-8CEE-8D8BA8ECF0B4}" fieldid="Title" updated="20220822T142716Z">
+    <en>2017_HB_Mid_Year_Labor_Seminar</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2019 - Hanson Bridgett Mid-Year Labor Seminar" key="2019 - Hanson Bridgett Mid-Year Labor Seminar" itemid="{34BBA72F-9ECC-4E21-AE16-62409C2D8A6B}" fieldid="Title" updated="20220822T142723Z">
+    <en>2019 - Hanson Bridgett Mid-Year Labor Seminar</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2019 Hanson Bridgett Employee Benefits Webinar - Private Sector" key="2019 Hanson Bridgett Employee Benefits Webinar - Private Sector" itemid="{5107E68A-C1F2-4A09-8DF5-74AD19DF572E}" fieldid="Title" updated="20220822T142730Z">
+    <en>2019 Hanson Bridgett Employee Benefits Webinar - Private Sector</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2019 Hanson Bridgett Employee Benefits Webinar - Public Agency" key="2019 Hanson Bridgett Employee Benefits Webinar - Public Agency" itemid="{5B57ACDA-2F3A-47C4-8437-9171E8A82A37}" fieldid="Title" updated="20220822T142738Z">
+    <en>2019 Hanson Bridgett Employee Benefits Webinar - Public Agency</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2020 Hanson Bridgett Employee Benefits Webinar - Private Sector" key="2020 Hanson Bridgett Employee Benefits Webinar - Private Sector" itemid="{1F6791C5-4F1E-4E31-A497-B43281046F76}" fieldid="Title" updated="20220822T142745Z">
+    <en>2020 Hanson Bridgett Employee Benefits Webinar - Private Sector</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2020 Hanson Bridgett Employee Benefits Webinar - Public Agency" key="2020 Hanson Bridgett Employee Benefits Webinar - Public Agency" itemid="{5A8F4D52-FC9C-4593-B30F-5673B93C6440}" fieldid="Title" updated="20220822T142753Z">
+    <en>2020 Hanson Bridgett Employee Benefits Webinar - Public Agency</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2020_Labor _Employment_Mid-Year_Booklet" key="2020_Labor _Employment_Mid-Year_Booklet" itemid="{C6C36986-2FE3-4A28-B3AB-D6264A52F24D}" fieldid="Title" updated="20220818T163536Z">
+    <en>2020 Labor Employment Mid-Year Booklet</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/2022 Mid-Year Labor and Employment Seminar Full Presentation" key="2022 Mid-Year Labor and Employment Seminar Full Presentation" itemid="{34F226F4-E9FE-432B-AA78-EF836C67C830}" fieldid="Title" updated="20220822T142803Z">
+    <en>2022 Mid-Year Labor and Employment Seminar Full Presentation</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Design-Build - City Attorneys Conference - May 2015" key="Design-Build - City Attorneys Conference - May 2015" itemid="{8ABFAC45-B0EC-4170-A27A-48069E61ED78}" fieldid="Title" updated="20220822T142810Z">
+    <en>Design-Build - City Attorneys Conference - May 2015</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Design-Build - County Counsel Conference - May 2015" key="Design-Build - County Counsel Conference - May 2015" itemid="{1F09415C-213B-43B4-A7C6-0EBF7F1D293B}" fieldid="Title" updated="20150716T193059Z">
+    <en>Design-Build - County Counsel Conference - May 2015</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Emerging Chemical and Mass Torts Whats New Whats Next" key="Emerging Chemical and Mass Torts Whats New Whats Next" itemid="{E9FAD64B-2B84-440D-B42B-F4508DA59A66}" fieldid="Title" updated="20220822T142818Z">
+    <en>Emerging Chemical and Mass Torts Whats New Whats Next</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Emerging Issues and Recent Developments in Chemical and Product Liability Law" key="Emerging Issues and Recent Developments in Chemical and Product Liability Law" itemid="{4C357EA9-9076-45D4-8F68-877A1849728B}" fieldid="Title" updated="20220822T142825Z">
+    <en>Emerging Issues and Recent Developments in Chemical and Product Liability Law</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Final 4714 Facility Construction and Liability in a Post Realignment" key="Final 4714 Facility Construction and Liability in a Post Realignment" itemid="{A8539A58-4CC5-489E-9FC4-30A764D46852}" fieldid="Title" updated="20220822T142833Z">
+    <en>Final 4714 Facility Construction and Liability in a Post Realignment</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor and Employment Update 2016/LE Complete PDF" key="LE Complete PDF" itemid="{92CB1762-611C-4513-8B1D-B7DADD37E9E3}" fieldid="Title" updated="20220822T142842Z">
+    <en>LE Complete PDF</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-02-Latest-Laws-Cases-Hot-Topics" key="Tab-02-Latest-Laws-Cases-Hot-Topics" itemid="{A1D8BBEC-D985-4027-B192-13A8564F461E}" fieldid="Size" updated="20220822T142850Z">
+    <en>1220542</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-02-Latest-Laws-Cases-Hot-Topics" key="Tab-02-Latest-Laws-Cases-Hot-Topics" itemid="{A1D8BBEC-D985-4027-B192-13A8564F461E}" fieldid="Extension" updated="20220822T142850Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-02-Latest-Laws-Cases-Hot-Topics" key="Tab-02-Latest-Laws-Cases-Hot-Topics" itemid="{A1D8BBEC-D985-4027-B192-13A8564F461E}" fieldid="Blob" updated="20220822T142850Z">
+    <en>{03BE47ED-8B62-4DBD-B33D-CBE8A44AA79D}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-02-Latest-Laws-Cases-Hot-Topics" key="Tab-02-Latest-Laws-Cases-Hot-Topics" itemid="{A1D8BBEC-D985-4027-B192-13A8564F461E}" fieldid="Mime Type" updated="20220822T142850Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-02-Latest-Laws-Cases-Hot-Topics" key="Tab-02-Latest-Laws-Cases-Hot-Topics" itemid="{A1D8BBEC-D985-4027-B192-13A8564F461E}" fieldid="Title" updated="20220822T142850Z">
+    <en>Tab-02-Latest-Laws-Cases-Hot-Topics</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-03-Social-Media" key="Tab-03-Social-Media" itemid="{D96A072D-72CB-4D3B-A6F8-71940744643F}" fieldid="Size" updated="20220822T142859Z">
+    <en>209873</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-03-Social-Media" key="Tab-03-Social-Media" itemid="{D96A072D-72CB-4D3B-A6F8-71940744643F}" fieldid="Extension" updated="20220822T142859Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-03-Social-Media" key="Tab-03-Social-Media" itemid="{D96A072D-72CB-4D3B-A6F8-71940744643F}" fieldid="Blob" updated="20220822T142859Z">
+    <en>{2A28FEE9-57D8-44BF-B70A-9E8DC97CFFDD}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-03-Social-Media" key="Tab-03-Social-Media" itemid="{D96A072D-72CB-4D3B-A6F8-71940744643F}" fieldid="Mime Type" updated="20220822T142859Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-03-Social-Media" key="Tab-03-Social-Media" itemid="{D96A072D-72CB-4D3B-A6F8-71940744643F}" fieldid="Title" updated="20220822T142859Z">
+    <en>Tab-03-Social-Media</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-04-Independent-Contractors" key="Tab-04-Independent-Contractors" itemid="{C7CD5CF5-40F8-4664-AAFD-B5BEAE5EDCB7}" fieldid="Size" updated="20220822T142907Z">
+    <en>205804</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-04-Independent-Contractors" key="Tab-04-Independent-Contractors" itemid="{C7CD5CF5-40F8-4664-AAFD-B5BEAE5EDCB7}" fieldid="Extension" updated="20220822T142907Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-04-Independent-Contractors" key="Tab-04-Independent-Contractors" itemid="{C7CD5CF5-40F8-4664-AAFD-B5BEAE5EDCB7}" fieldid="Blob" updated="20220822T142907Z">
+    <en>{F8DE3BAC-02F2-42D7-9E68-C1BFB7E5A86D}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-04-Independent-Contractors" key="Tab-04-Independent-Contractors" itemid="{C7CD5CF5-40F8-4664-AAFD-B5BEAE5EDCB7}" fieldid="Mime Type" updated="20220822T142907Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-04-Independent-Contractors" key="Tab-04-Independent-Contractors" itemid="{C7CD5CF5-40F8-4664-AAFD-B5BEAE5EDCB7}" fieldid="Title" updated="20220822T142907Z">
+    <en>Tab-04-Independent-Contractors</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-05-Legislative-Roundup" key="Tab-05-Legislative-Roundup" itemid="{8AB965A2-8FB3-4B0C-B56C-D6D116151271}" fieldid="Size" updated="20220822T142913Z">
+    <en>206888</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-05-Legislative-Roundup" key="Tab-05-Legislative-Roundup" itemid="{8AB965A2-8FB3-4B0C-B56C-D6D116151271}" fieldid="Extension" updated="20220822T142913Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-05-Legislative-Roundup" key="Tab-05-Legislative-Roundup" itemid="{8AB965A2-8FB3-4B0C-B56C-D6D116151271}" fieldid="Blob" updated="20220822T142913Z">
+    <en>{11ADD752-FD25-4EFE-B769-FBC537E57DFE}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-05-Legislative-Roundup" key="Tab-05-Legislative-Roundup" itemid="{8AB965A2-8FB3-4B0C-B56C-D6D116151271}" fieldid="Mime Type" updated="20220822T142913Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-05-Legislative-Roundup" key="Tab-05-Legislative-Roundup" itemid="{8AB965A2-8FB3-4B0C-B56C-D6D116151271}" fieldid="Title" updated="20220822T142913Z">
+    <en>Tab-05-Legislative-Roundup</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-06-Notable-Cases" key="Tab-06-Notable-Cases" itemid="{A4BCAE6D-3025-4873-A796-29C311E4CA44}" fieldid="Size" updated="20220822T142924Z">
+    <en>210433</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-06-Notable-Cases" key="Tab-06-Notable-Cases" itemid="{A4BCAE6D-3025-4873-A796-29C311E4CA44}" fieldid="Extension" updated="20220822T142924Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-06-Notable-Cases" key="Tab-06-Notable-Cases" itemid="{A4BCAE6D-3025-4873-A796-29C311E4CA44}" fieldid="Blob" updated="20220822T142924Z">
+    <en>{06E445E7-FF07-4368-9E2D-B735E75C0C63}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-06-Notable-Cases" key="Tab-06-Notable-Cases" itemid="{A4BCAE6D-3025-4873-A796-29C311E4CA44}" fieldid="Mime Type" updated="20220822T142924Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-06-Notable-Cases" key="Tab-06-Notable-Cases" itemid="{A4BCAE6D-3025-4873-A796-29C311E4CA44}" fieldid="Title" updated="20220822T142924Z">
+    <en>Tab-06-Notable-Cases</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-07-LC28105-Notice" key="Tab-07-LC28105-Notice" itemid="{2BFD9A68-12CF-48C5-A8E5-B078C07B48F0}" fieldid="Size" updated="20220822T142930Z">
+    <en>60960</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-07-LC28105-Notice" key="Tab-07-LC28105-Notice" itemid="{2BFD9A68-12CF-48C5-A8E5-B078C07B48F0}" fieldid="Extension" updated="20220822T142930Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-07-LC28105-Notice" key="Tab-07-LC28105-Notice" itemid="{2BFD9A68-12CF-48C5-A8E5-B078C07B48F0}" fieldid="Blob" updated="20220822T142930Z">
+    <en>{D7052C0A-E4DC-4D99-B3B4-AE1E84F14C0A}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-07-LC28105-Notice" key="Tab-07-LC28105-Notice" itemid="{2BFD9A68-12CF-48C5-A8E5-B078C07B48F0}" fieldid="Mime Type" updated="20220822T142930Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-07-LC28105-Notice" key="Tab-07-LC28105-Notice" itemid="{2BFD9A68-12CF-48C5-A8E5-B078C07B48F0}" fieldid="Title" updated="20220822T142930Z">
+    <en>Tab-07-LC28105-Notice</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-08-Employee-Rights-Poster-8-5x11" key="Tab-08-Employee-Rights-Poster-8-5x11" itemid="{02ED955D-6CFA-4A4E-A58D-F63A65EC98A8}" fieldid="Size" updated="20220822T142938Z">
+    <en>66128</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-08-Employee-Rights-Poster-8-5x11" key="Tab-08-Employee-Rights-Poster-8-5x11" itemid="{02ED955D-6CFA-4A4E-A58D-F63A65EC98A8}" fieldid="Extension" updated="20220822T142938Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-08-Employee-Rights-Poster-8-5x11" key="Tab-08-Employee-Rights-Poster-8-5x11" itemid="{02ED955D-6CFA-4A4E-A58D-F63A65EC98A8}" fieldid="Blob" updated="20220822T142938Z">
+    <en>{4B2DBA3A-77D1-4861-9C34-01642354BD47}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-08-Employee-Rights-Poster-8-5x11" key="Tab-08-Employee-Rights-Poster-8-5x11" itemid="{02ED955D-6CFA-4A4E-A58D-F63A65EC98A8}" fieldid="Mime Type" updated="20220822T142938Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-08-Employee-Rights-Poster-8-5x11" key="Tab-08-Employee-Rights-Poster-8-5x11" itemid="{02ED955D-6CFA-4A4E-A58D-F63A65EC98A8}" fieldid="Title" updated="20220822T142938Z">
+    <en>Tab-08-Employee-Rights-Poster-8-5x11</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-09-HCSO" key="Tab-09-HCSO" itemid="{0743C224-DDDF-4824-8014-9375936E04EF}" fieldid="Size" updated="20220822T142944Z">
+    <en>133755</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-09-HCSO" key="Tab-09-HCSO" itemid="{0743C224-DDDF-4824-8014-9375936E04EF}" fieldid="Extension" updated="20220822T142944Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-09-HCSO" key="Tab-09-HCSO" itemid="{0743C224-DDDF-4824-8014-9375936E04EF}" fieldid="Blob" updated="20220822T142944Z">
+    <en>{10822CA2-A5DD-47D4-939A-B26D3B7C07A9}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-09-HCSO" key="Tab-09-HCSO" itemid="{0743C224-DDDF-4824-8014-9375936E04EF}" fieldid="Mime Type" updated="20220822T142944Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-09-HCSO" key="Tab-09-HCSO" itemid="{0743C224-DDDF-4824-8014-9375936E04EF}" fieldid="Title" updated="20220822T142944Z">
+    <en>Tab-09-HCSO</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-10-Notice-2012-9" key="Tab-10-Notice-2012-9" itemid="{EAE1E5D0-E32C-4F93-AB6B-904F16E9DD56}" fieldid="Size" updated="20220822T142951Z">
+    <en>89002</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-10-Notice-2012-9" key="Tab-10-Notice-2012-9" itemid="{EAE1E5D0-E32C-4F93-AB6B-904F16E9DD56}" fieldid="Extension" updated="20220822T142951Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-10-Notice-2012-9" key="Tab-10-Notice-2012-9" itemid="{EAE1E5D0-E32C-4F93-AB6B-904F16E9DD56}" fieldid="Blob" updated="20220822T142951Z">
+    <en>{C3D56A99-D8D4-4620-811F-0DC592887F6C}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-10-Notice-2012-9" key="Tab-10-Notice-2012-9" itemid="{EAE1E5D0-E32C-4F93-AB6B-904F16E9DD56}" fieldid="Mime Type" updated="20220822T142951Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-10-Notice-2012-9" key="Tab-10-Notice-2012-9" itemid="{EAE1E5D0-E32C-4F93-AB6B-904F16E9DD56}" fieldid="Title" updated="20220822T142951Z">
+    <en>Tab-10-Notice-2012-9</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-11-W-2-Reporting-Handout-Jan-2012" key="Tab-11-W-2-Reporting-Handout-Jan-2012" itemid="{D66003AC-1A4B-49E3-81B1-CA3065B409E5}" fieldid="Size" updated="20220822T142957Z">
+    <en>293878</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-11-W-2-Reporting-Handout-Jan-2012" key="Tab-11-W-2-Reporting-Handout-Jan-2012" itemid="{D66003AC-1A4B-49E3-81B1-CA3065B409E5}" fieldid="Extension" updated="20220822T142957Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-11-W-2-Reporting-Handout-Jan-2012" key="Tab-11-W-2-Reporting-Handout-Jan-2012" itemid="{D66003AC-1A4B-49E3-81B1-CA3065B409E5}" fieldid="Blob" updated="20220822T142957Z">
+    <en>{3A78DE37-ABB0-4AC8-855E-9DD006AA6477}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-11-W-2-Reporting-Handout-Jan-2012" key="Tab-11-W-2-Reporting-Handout-Jan-2012" itemid="{D66003AC-1A4B-49E3-81B1-CA3065B409E5}" fieldid="Mime Type" updated="20220822T142957Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-11-W-2-Reporting-Handout-Jan-2012" key="Tab-11-W-2-Reporting-Handout-Jan-2012" itemid="{D66003AC-1A4B-49E3-81B1-CA3065B409E5}" fieldid="Title" updated="20220822T142957Z">
+    <en>Tab-11-W-2-Reporting-Handout-Jan-2012</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-12-Technical-Release-2011-04" key="Tab-12-Technical-Release-2011-04" itemid="{3B5A3067-E193-4B4E-A9B9-1759EB9E7B0F}" fieldid="Size" updated="20220822T143003Z">
+    <en>67034</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-12-Technical-Release-2011-04" key="Tab-12-Technical-Release-2011-04" itemid="{3B5A3067-E193-4B4E-A9B9-1759EB9E7B0F}" fieldid="Extension" updated="20220822T143003Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-12-Technical-Release-2011-04" key="Tab-12-Technical-Release-2011-04" itemid="{3B5A3067-E193-4B4E-A9B9-1759EB9E7B0F}" fieldid="Blob" updated="20220822T143003Z">
+    <en>{E444570C-07B3-4BDC-9CCA-6A2DED1C5C19}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-12-Technical-Release-2011-04" key="Tab-12-Technical-Release-2011-04" itemid="{3B5A3067-E193-4B4E-A9B9-1759EB9E7B0F}" fieldid="Mime Type" updated="20220822T143003Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-12-Technical-Release-2011-04" key="Tab-12-Technical-Release-2011-04" itemid="{3B5A3067-E193-4B4E-A9B9-1759EB9E7B0F}" fieldid="Title" updated="20220822T143003Z">
+    <en>Tab-12-Technical-Release-2011-04</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-13-Retirement" key="Tab-13-Retirement" itemid="{901B6F73-31DB-42FF-A96B-BAF98BD27035}" fieldid="Size" updated="20220822T143011Z">
+    <en>25434567</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-13-Retirement" key="Tab-13-Retirement" itemid="{901B6F73-31DB-42FF-A96B-BAF98BD27035}" fieldid="Extension" updated="20220822T143011Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-13-Retirement" key="Tab-13-Retirement" itemid="{901B6F73-31DB-42FF-A96B-BAF98BD27035}" fieldid="Blob" updated="20220822T143011Z">
+    <en>{5FDD7338-7B68-43D5-971A-6D9C5FEC5D04}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-13-Retirement" key="Tab-13-Retirement" itemid="{901B6F73-31DB-42FF-A96B-BAF98BD27035}" fieldid="Mime Type" updated="20220822T143011Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-13-Retirement" key="Tab-13-Retirement" itemid="{901B6F73-31DB-42FF-A96B-BAF98BD27035}" fieldid="Title" updated="20220822T143011Z">
+    <en>Tab-13-Retirement</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-14-Notice-2010-6" key="Tab-14-Notice-2010-6" itemid="{FDE0C99C-936A-4261-922E-A38E0DF44E8A}" fieldid="Size" updated="20220822T143017Z">
+    <en>2869336</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-14-Notice-2010-6" key="Tab-14-Notice-2010-6" itemid="{FDE0C99C-936A-4261-922E-A38E0DF44E8A}" fieldid="Extension" updated="20220822T143017Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-14-Notice-2010-6" key="Tab-14-Notice-2010-6" itemid="{FDE0C99C-936A-4261-922E-A38E0DF44E8A}" fieldid="Blob" updated="20220822T143017Z">
+    <en>{FCD6E731-F3BA-45CF-A9F6-CD8D9EBFEF2C}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-14-Notice-2010-6" key="Tab-14-Notice-2010-6" itemid="{FDE0C99C-936A-4261-922E-A38E0DF44E8A}" fieldid="Mime Type" updated="20220822T143017Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Labor-Employment-Update-2012/Tab-14-Notice-2010-6" key="Tab-14-Notice-2010-6" itemid="{FDE0C99C-936A-4261-922E-A38E0DF44E8A}" fieldid="Title" updated="20220822T143017Z">
+    <en>Tab-14-Notice-2010-6</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/LeadingAge WA Death with Dignity - PSK" key="LeadingAge WA Death with Dignity - PSK" itemid="{0985EE83-7038-4416-9386-F153D5A1BB91}" fieldid="Title" updated="20220822T143025Z">
+    <en>LeadingAge WA Death with Dignity - PSK</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/LegalDueDiligenceForEmergingGrowthCompanies" key="LegalDueDiligenceForEmergingGrowthCompanies" itemid="{AECF4A00-24DC-4EA7-B466-7191025B35ED}" fieldid="Size" updated="20220822T143032Z">
+    <en>104472</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/LegalDueDiligenceForEmergingGrowthCompanies" key="LegalDueDiligenceForEmergingGrowthCompanies" itemid="{AECF4A00-24DC-4EA7-B466-7191025B35ED}" fieldid="Extension" updated="20220822T143032Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/LegalDueDiligenceForEmergingGrowthCompanies" key="LegalDueDiligenceForEmergingGrowthCompanies" itemid="{AECF4A00-24DC-4EA7-B466-7191025B35ED}" fieldid="Blob" updated="20220822T143032Z">
+    <en>{28327B6D-8E6F-4FF6-AFE3-1209F9E6DB7F}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/LegalDueDiligenceForEmergingGrowthCompanies" key="LegalDueDiligenceForEmergingGrowthCompanies" itemid="{AECF4A00-24DC-4EA7-B466-7191025B35ED}" fieldid="Mime Type" updated="20220822T143032Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/LegalDueDiligenceForEmergingGrowthCompanies" key="LegalDueDiligenceForEmergingGrowthCompanies" itemid="{AECF4A00-24DC-4EA7-B466-7191025B35ED}" fieldid="Title" updated="20220822T143032Z">
+    <en>LegalDueDiligenceForEmergingGrowthCompanies</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Armory_1-2016" key="MBG_Armory_1-2016" itemid="{3BD5B8E1-A6EC-4FEB-BCB6-64C955CCA47F}" fieldid="Title" updated="20220822T143040Z">
+    <en>MBG_Armory_1-2016</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Armory_6-10-15" key="MBG_Armory_6-10-15" itemid="{0061FFC3-0B36-4DA0-95B3-D9E5227C0E57}" fieldid="Title" updated="20220822T143049Z">
+    <en>MBG_Armory_6-10-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Armory_8-20-15" key="MBG_Armory_8-20-15" itemid="{21673738-045F-4E11-916D-C21365FBBEFF}" fieldid="Title" updated="20220822T143055Z">
+    <en>MBG_Armory_8-20-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Armory_9-29-15" key="MBG_Armory_9-29-15" itemid="{DC6706EF-C0F5-4719-B47A-4B5C692649B3}" fieldid="Title" updated="20220822T143103Z">
+    <en>MBG_Armory_9-29-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Hotel Vitale_1-2016" key="MBG_Hotel Vitale_1-2016" itemid="{0ED21043-6E94-48C4-8295-C8F42F758A6D}" fieldid="Title" updated="20220822T143109Z">
+    <en>MBG_Hotel Vitale_1-2016</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Hotel Vitale_8-20-15" key="MBG_Hotel Vitale_8-20-15" itemid="{ED05D1D3-C7B8-4C5F-9E72-A9F739DAE21C}" fieldid="Title" updated="20220822T143115Z">
+    <en>MBG_Hotel Vitale_8-20-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Hotel Vitale_9-29-15" key="MBG_Hotel Vitale_9-29-15" itemid="{BDBCD818-3511-4E6D-AFB6-484466BA6441}" fieldid="Title" updated="20220822T143121Z">
+    <en>MBG_Hotel Vitale_9-29-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Library_1-2016" key="MBG_Library_1-2016" itemid="{D264A4DF-C38E-4F07-9B5A-7BAFF17836AF}" fieldid="Title" updated="20220822T143127Z">
+    <en>MBG_Library_1-2016</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Library_7-6-15" key="MBG_Library_7-6-15" itemid="{A8950501-F4BE-4230-B115-D5DE716442A8}" fieldid="Title" updated="20220822T143134Z">
+    <en>MBG_Library_7-6-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Library_8-20-15" key="MBG_Library_8-20-15" itemid="{415A04E5-C7A0-4358-BABB-2D224D084F39}" fieldid="Title" updated="20220822T143141Z">
+    <en>MBG_Library_8-20-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Library_9-28-15" key="MBG_Library_9-28-15" itemid="{A7938556-0185-4534-A75B-7C219689B6EA}" fieldid="Title" updated="20220822T143148Z">
+    <en>MBG_Library_9-28-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/MBG_Library_9-29-15" key="MBG_Library_9-29-15" itemid="{3F554C53-C965-4BBF-92C4-9B87B1D98AD7}" fieldid="Title" updated="20220822T143156Z">
+    <en>MBG_Library_9-29-15</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Municipal Water Utility Ratemaking in CA" key="Municipal Water Utility Ratemaking in CA" itemid="{3C85177A-EE42-4A64-B014-2A55D54A3401}" fieldid="Title" updated="20150727T225853Z">
+    <en>Municipal Water Utility Ratemaking in California</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/Reviewing Limited Partnership Agreements For Real Estate Funds" key="Reviewing Limited Partnership Agreements For Real Estate Funds" itemid="{2E296A7C-A36E-4BA0-8AB7-11125B5C7F44}" fieldid="Title" updated="20220822T143209Z">
+    <en>Reviewing Limited Partnership Agreements For Real Estate Funds</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Presentations/The Industrial Hygienist as an Expert WitnessAdmissibility" key="The Industrial Hygienist as an Expert WitnessAdmissibility" itemid="{0E9320EA-42EE-437A-96BC-BF1A5AFD63DE}" fieldid="Title" updated="20220822T143219Z">
+    <en>The Industrial Hygienist as an Expert WitnessAdmissibility</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/2019-09-Tax-notes-federal" key="2019-09-Tax-notes-federal" itemid="{96C6660F-E2E9-40E5-9A8D-33646BA5ADCC}" fieldid="Title" updated="20220822T143235Z">
+    <en>2019-09-Tax-notes-federal</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Beacon Award" key="Beacon Award" itemid="{FC4E4BEF-8E80-40BB-8F2C-55BD53679274}" fieldid="Title" updated="20220822T143242Z">
+    <en>Beacon Award</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Counselor-2015" key="Counselor-2015" itemid="{752D8F3B-6C2A-433C-83C5-D5C3038CE00C}" fieldid="Title" updated="20220822T143248Z">
+    <en>Counselor-2015</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Daily-Journal-2018-Top-Women-Wright" key="Daily-Journal-2018-Top-Women-Wright" itemid="{280A5ADF-2864-4063-8183-DFCC81170745}" fieldid="Title" updated="20220822T143254Z">
+    <en>Daily-Journal-2018-Top-Women-Wright</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Fed Circ Wont Touch Levis Win In Royalty Arbitration  Law360" key="Fed Circ Wont Touch Levis Win In Royalty Arbitration  Law360" itemid="{9FBDACB8-B185-44A8-B296-2C5CA275D76C}" fieldid="Title" updated="20220822T143302Z">
+    <en>Fed Circ Wont Touch Levis Win In Royalty Arbitration Law360</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Hanson Bridget KCassmanDJ Top 25" key="Hanson Bridget KCassmanDJ Top 25" itemid="{913E875A-0971-4F69-A551-6BDA24CE73F7}" fieldid="Title" updated="20220822T143309Z">
+    <en>Hanson Bridget KCassmanDJ Top 25</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Hanson Bridgett Gets 6th B Corp Certification  Daily Journal 41122" key="Hanson Bridgett Gets 6th B Corp Certification  Daily Journal 41122" itemid="{05A8EBA0-6705-4AB3-AA11-590A118A9C5D}" fieldid="Title" updated="20220822T143316Z">
+    <en>Hanson Bridgett Gets 6th B Corp Certification Daily Journal 41122</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Hanson Bridgett Partner Recognized by Los Angeles Business Journal" key="Hanson Bridgett Partner Recognized by Los Angeles Business Journal" itemid="{2EDF5A2C-F38A-48A9-853A-BFF36103E04B}" fieldid="Title" updated="20220822T143322Z">
+    <en>Hanson Bridgett Partner Recognized by Los Angeles Business Journal</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Hanson partner snags document firms stock deal" key="Hanson partner snags document firms stock deal" itemid="{BE1B8106-61C9-4FFC-8427-380512A49071}" fieldid="Title" updated="20220822T143328Z">
+    <en>Hanson partner snags document firms stock deal</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/sandy knx la" key="sandy knx la" itemid="{46805F57-3570-4386-912C-AB4EE82B916B}" fieldid="Title" updated="20210611T180009Z">
+    <en>"KNX In Depth: Confusion Over California Reopening Rules And Mask Rules At Work," KNX 1070 NEWSRADIO (June 2021)</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/SustainabilityLaw Firm Clients Demand Clean Tech Practices" key="SustainabilityLaw Firm Clients Demand Clean Tech Practices" itemid="{37B17F38-B720-4BC4-8E31-82F6E1DA2A51}" fieldid="Title" updated="20220822T143343Z">
+    <en>SustainabilityLaw Firm Clients Demand Clean Tech Practices</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Press/Victory at Pine Creek" key="Victory at Pine Creek" itemid="{EA928118-4980-4B84-BFA4-FA7E23B1EC79}" fieldid="Title" updated="20220822T143357Z">
+    <en>Victory at Pine Creek</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/12-02-03 IRS-REG-157714-06-comment" key="12-02-03 IRS-REG-157714-06-comment" itemid="{6DA116CA-C292-44FE-A917-B02B80B31DD2}" fieldid="Title" updated="20220822T143405Z">
+    <en>12-02-03 IRS-REG-157714-06-comment</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/12-02-03 IRS-REG-157714-06-comment/Pension-reforms-analysis-2012-09-12" key="Pension-reforms-analysis-2012-09-12" itemid="{CD6BAB84-63B9-4D6A-BD9E-C41C3C8EECDC}" fieldid="Title" updated="20220822T143419Z">
+    <en>Pension-reforms-analysis-2012-09-12</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/12-02-03 IRS-REG-157714-06-comment/Pension-reforms-analysis-2012-09-12" key="Pension-reforms-analysis-2012-09-12" itemid="{2923719C-0640-4A2A-BDFB-B51AD54553FA}" fieldid="Title" updated="20220822T143428Z">
+    <en>Pension-reforms-analysis-2012-09-12_</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-08-20-freeze-partnership" key="2021-08-20-freeze-partnership" itemid="{1D82034A-154B-471B-BF90-C5BAE22EB307}" fieldid="Title" updated="20220822T143437Z">
+    <en>2021-08-20-freeze-partnership</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-08-20-freeze-partnership2" key="2021-08-20-freeze-partnership2" itemid="{921433A6-8139-4FA5-A683-2445124FC864}" fieldid="Title" updated="20220822T143443Z">
+    <en>2021-08-20-freeze-partnership2</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-08-25-wetlands-permitting" key="2021-08-25-wetlands-permitting" itemid="{041F9464-28B8-49D8-9D87-4E5DAB1FD46B}" fieldid="Title" updated="20220822T143450Z">
+    <en>2021-08-25-wetlands-permitting</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-09-07-food-beverage-black-box" key="2021-09-07-food-beverage-black-box" itemid="{F4B57CC3-1964-47BE-9D14-FFB3F7279B75}" fieldid="Title" updated="20220822T143507Z">
+    <en>2021-09-07-food-beverage-black-box</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-09-07-food-beverage-black-box" key="2021-09-07-food-beverage-black-box" itemid="{F4B57CC3-1964-47BE-9D14-FFB3F7279B75}" fieldid="Alt" updated="20220822T143507Z">
+    <en>red arrow with label Ingredients and Specifications pointing to black box labeled Proprietary Process with another red arrow leading out labeled Prototype</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-09-09-black-box-products" key="2021-09-09-black-box-products" itemid="{080708AA-5209-4173-B7F5-3C3236F23FD9}" fieldid="Title" updated="20220822T143536Z">
+    <en>2021-09-09-black-box-products</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-09-14-ca-privacy-rights-act" key="2021-09-14-ca-privacy-rights-act" itemid="{7FC34B82-FA79-4A76-A68D-68A1FB8CE85A}" fieldid="Title" updated="20220822T143545Z">
+    <en>2021-09-14-ca-privacy-rights-act</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-11-TMM-Karachale-QSBS-Article" key="2021-11-TMM-Karachale-QSBS-Article" itemid="{0D954B54-6819-4F94-BBD2-CF5479400C5C}" fieldid="Title" updated="20220822T143551Z">
+    <en>2021-11-TMM-Karachale-QSBS-Article</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/220520-international-ndas" key="220520-international-ndas" itemid="{F8021028-ED14-4D89-8A25-6B77FF14D0C8}" fieldid="Title" updated="20220822T143558Z">
+    <en>220520-international-ndas</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/American-Axle" key="American-Axle" itemid="{CE4B07EC-4281-4E48-A20B-9F01E2BD48F8}" fieldid="Title" updated="20220810T155000Z">
+    <en>American Axle: Prolonging the Controversy</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Anti-Slapp" key="Anti-Slapp" itemid="{5CEAA56A-B584-40E3-BFE9-746063C5C249}" fieldid="Title" updated="20220802T232807Z">
+    <en>Anti-Slapp Motions and Hearsay</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/ASHA_FairHousing_ADA_LowRes" key="ASHA_FairHousing_ADA_LowRes" itemid="{0DF49D9E-078E-42D8-A252-F48435EBC1E8}" fieldid="Title" updated="20220822T143611Z">
+    <en>ASHA_FairHousing_ADA_LowRes</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/ASHA_FairHousing_ADA_LowRes-August22" key="ASHA_FairHousing_ADA_LowRes-August22" itemid="{93167D18-3CD2-4855-8487-93772BD5E58E}" fieldid="Title" updated="20220822T143619Z">
+    <en>ASHA_FairHousing_ADA_LowRes-August22</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Bloomberg Law - Californias Variable Water Supply Needs More Than Rainfall" key="Bloomberg Law - Californias Variable Water Supply Needs More Than Rainfall" itemid="{DE6BCB19-8546-4138-A215-0265CD4BC12E}" fieldid="Title" updated="20220822T143626Z">
+    <en>Bloomberg Law - Californias Variable Water Supply Needs More Than Rainfall</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/CALA Article" key="CALA Article" itemid="{4F71DC9F-2890-4711-A45D-3CF61CDF6BCC}" fieldid="Title" updated="20220307T183116Z">
+    <en>CALA Publication</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Hanson Bridgett LLP DJ 1522" key="Hanson Bridgett LLP DJ 1522" itemid="{4B614C56-FEC0-4056-8F35-A6B51B2555C8}" fieldid="Title" updated="20220822T143635Z">
+    <en>Hanson Bridgett LLP DJ 1522</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/newsbloombergtaxcomTaxpayers in Jarrett Case Still Seek an Answer on Crypto Staking" key="newsbloombergtaxcomTaxpayers in Jarrett Case Still Seek an Answer on Crypto Staking" itemid="{4D1FC5AF-A007-40E8-A675-424380E4D92E}" fieldid="Title" updated="20220822T143644Z">
+    <en>newsbloombergtaxcomTaxpayers in Jarrett Case Still Seek an Answer on Crypto Staking</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Pre-Dispute-Arbitration-Agreements" key="Pre-Dispute-Arbitration-Agreements" itemid="{7252F624-92C8-49FC-9AED-85711D15DC93}" fieldid="Title" updated="20220822T143651Z">
+    <en>Pre-Dispute-Arbitration-Agreements</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/RP Law Rep 012022 R Baral" key="RP Law Rep 012022 R Baral" itemid="{E8E340A1-B462-4262-A27F-D775FA3C1E06}" fieldid="Title" updated="20220822T143657Z">
+    <en>RP Law Rep 012022 R Baral</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/18CV330190-Writ-of-Mandate" key="18CV330190-Writ-of-Mandate" itemid="{C492D361-FF76-42E4-8F5B-FCF8F966159B}" fieldid="Title" updated="20220822T143704Z">
+    <en>18CV330190-Writ-of-Mandate</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2010 Gap Year Gift Planning" key="2010 Gap Year Gift Planning" itemid="{448DF17E-94CD-4C29-992D-56D36085FBDC}" fieldid="Title" updated="20220822T143710Z">
+    <en>2010 Gap Year Gift Planning</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2011-07-01-non-capital-expenses-may-not-qualify" key="2011-07-01-non-capital-expenses-may-not-qualify" itemid="{E1F9AC3F-291D-4896-ACE9-FB5EFF024A5E}" fieldid="Title" updated="20220822T143716Z">
+    <en>2011-07-01-non-capital-expenses-may-not-qualify</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2011-11-ediscovery-five-custodians" key="2011-11-ediscovery-five-custodians" itemid="{28931FB5-F8E3-4BBB-AE43-D3D6F9B08662}" fieldid="Title" updated="20220822T143728Z">
+    <en>2011-11-ediscovery-five-custodians</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2012_navigating_carefully_through_choppy_waters" key="2012_navigating_carefully_through_choppy_waters" itemid="{1560C046-C7B9-4D08-9B85-75EB5932F7B2}" fieldid="Title" updated="20220822T143738Z">
+    <en>2012_navigating_carefully_through_choppy_waters</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2012_navigating_carefully_through_choppy_waters" key="2012_navigating_carefully_through_choppy_waters" itemid="{F8E82399-67A5-454E-9B73-5C200EB09CCF}" fieldid="Title" updated="20220822T143747Z">
+    <en>2012_navigating_carefully_through_choppy_waters_</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2012-ABA-Contruction-Industry-Plenary-7-Paper" key="2012-ABA-Contruction-Industry-Plenary-7-Paper" itemid="{07E68B61-2C99-4A36-8E0F-16BF55F6C894}" fieldid="Title" updated="20220822T143753Z">
+    <en>2012-ABA-Contruction-Industry-Plenary-7-Paper</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2012-Corporate-alert-money-from-the-masses" key="2012-Corporate-alert-money-from-the-masses" itemid="{F95A478D-C6AE-4A6B-8D74-D7DB4C7EB06A}" fieldid="Title" updated="20220822T143800Z">
+    <en>2012-Corporate-alert-money-from-the-masses</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2013-03-comments-on-proposed-regulations" key="2013-03-comments-on-proposed-regulations" itemid="{BF8F2B01-0BC2-4B29-94F5-4CB6A5288E23}" fieldid="Title" updated="20220822T143807Z">
+    <en>2013-03-comments-on-proposed-regulations</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2014LaborEmploymentSeminarBookletFINAL" key="2014LaborEmploymentSeminarBookletFINAL" itemid="{74E05F9C-F676-4953-B148-F030DC080E8C}" fieldid="Title" updated="20220822T143815Z">
+    <en>2014LaborEmploymentSeminarBookletFINAL</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015_revisiting_arbitration_agreements" key="2015_revisiting_arbitration_agreements" itemid="{2F8CAF1E-6AC9-40DA-81AC-FF3C9081B738}" fieldid="Keywords" updated="20210819T001725Z">
+    <en>Arbitration Agreements, Legal Trends, Practical Advice, American Seniors Housing Association, Special Issue Brief</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015_revisiting_arbitration_agreements" key="2015_revisiting_arbitration_agreements" itemid="{2F8CAF1E-6AC9-40DA-81AC-FF3C9081B738}" fieldid="Title" updated="20210819T001725Z">
+    <en>Revisiting Arbitration Agreements: Legal Trends and Practical Advice</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015_revisiting_arbitration_agreements" key="2015_revisiting_arbitration_agreements" itemid="{2F8CAF1E-6AC9-40DA-81AC-FF3C9081B738}" fieldid="Description" updated="20210819T001725Z">
+    <en>Revisiting Arbitration Agreements: Legal Trends and Practical Advice</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-03-bbna-tax-planning" key="2015-03-bbna-tax-planning" itemid="{F16A7535-8AD0-40BE-83A1-C8AADE9A581F}" fieldid="Title" updated="20210819T001725Z">
+    <en>BBNA Tax Planning International Review 1 (March 2015)</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-05-15-Design Build White Paper" key="2015-05-15-Design Build White Paper" itemid="{B89FF8D5-5D6D-418B-BF94-0FAC8676E4F7}" fieldid="Title" updated="20210819T001725Z">
+    <en>A Step Forward for Public Work Construction - Design Build in the Public Sector After the Adoption of SB 785</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-05-bbna-tax-planning" key="2015-05-bbna-tax-planning" itemid="{C9358336-C7B9-4A22-8AF2-D362AE47AD02}" fieldid="Title" updated="20210819T001725Z">
+    <en>BBNA Tax Planning International Review 2 (May 2015)</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-07-bbna-tax-planning" key="2015-07-bbna-tax-planning" itemid="{8C6E9D96-C3E1-4107-A00B-774A0059DF0F}" fieldid="Title" updated="20210819T001725Z">
+    <en>BBNA Tax Planning International Review 3 (July 2015)</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-09-bbna-tax-planning" key="2015-09-bbna-tax-planning" itemid="{984C2043-5C6F-431F-884C-DD5F60D95F76}" fieldid="Title" updated="20210819T001725Z">
+    <en>BBNA Tax Planning International Review 4 (September 2015)</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-10-12-criminal-vw-case-may-get-messy" key="2015-10-12-criminal-vw-case-may-get-messy" itemid="{C1B4235A-CCE8-41F7-A626-9CAE4EF0B033}" fieldid="Title" updated="20220822T143832Z">
+    <en>2015-10-12-criminal-vw-case-may-get-messy</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2015-12-assisted-living-advocacy-history" key="2015-12-assisted-living-advocacy-history" itemid="{6F233B69-E1B5-49F1-9D71-EB4E578062C1}" fieldid="Title" updated="20220822T143839Z">
+    <en>2015-12-assisted-living-advocacy-history</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2016-07-ipd-targets-of-opportunity-images" key="2016-07-ipd-targets-of-opportunity-images" itemid="{F360EE4C-7BCA-41F7-B8BF-9B61B3448E4D}" fieldid="Title" updated="20220822T143846Z">
+    <en>2016-07-ipd-targets-of-opportunity-images</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2016-11-ipd-negotiation" key="2016-11-ipd-negotiation" itemid="{F1020E64-E1FB-45C7-849A-656B889DC9F2}" fieldid="Title" updated="20220822T143852Z">
+    <en>2016-11-ipd-negotiation</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2016-12-ipd-negotiation" key="2016-12-ipd-negotiation" itemid="{88C9E4C3-013B-43D2-A3A0-7BD844E68AD0}" fieldid="Title" updated="20220822T143857Z">
+    <en>2016-12-ipd-negotiation</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2016-1-pag-seniors-housing-guide" key="2016-1-pag-seniors-housing-guide" itemid="{5DEAEC3F-9B38-46FC-A492-5A675E418E05}" fieldid="Title" updated="20220822T143904Z">
+    <en>2016-1-pag-seniors-housing-guide</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2016-form-employer-report" key="2016-form-employer-report" itemid="{1BDA189B-07E2-4C55-9983-4E3DBF899AF7}" fieldid="Title" updated="20220822T143913Z">
+    <en>2016-form-employer-report</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017 DMO USLAW Mag Article" key="2017 DMO USLAW Mag Article" itemid="{AF1CA35B-7AB5-48B8-B105-58A4DAE7CE22}" fieldid="Size" updated="20220822T143935Z">
+    <en>220089</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017 DMO USLAW Mag Article" key="2017 DMO USLAW Mag Article" itemid="{AF1CA35B-7AB5-48B8-B105-58A4DAE7CE22}" fieldid="Extension" updated="20220822T143935Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017 DMO USLAW Mag Article" key="2017 DMO USLAW Mag Article" itemid="{AF1CA35B-7AB5-48B8-B105-58A4DAE7CE22}" fieldid="Blob" updated="20220822T143935Z">
+    <en>{19C16F43-2945-4F6B-991A-FADC26F477DC}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017 DMO USLAW Mag Article" key="2017 DMO USLAW Mag Article" itemid="{AF1CA35B-7AB5-48B8-B105-58A4DAE7CE22}" fieldid="Mime Type" updated="20220822T143935Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017 DMO USLAW Mag Article" key="2017 DMO USLAW Mag Article" itemid="{AF1CA35B-7AB5-48B8-B105-58A4DAE7CE22}" fieldid="Title" updated="20220822T143935Z">
+    <en>2017 DMO USLAW Mag Article</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017_Labor_Seminar_Presentation" key="2017_Labor_Seminar_Presentation" itemid="{308D3A4B-D4B6-4675-AB06-05DB0B2C5952}" fieldid="Title" updated="20220822T143941Z">
+    <en>2017_Labor_Seminar_Presentation</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017-02-adr-process-to" key="2017-02-adr-process-to" itemid="{3F248B2D-0B3C-4F02-913B-551B8B981B85}" fieldid="Title" updated="20220822T143947Z">
+    <en>2017-02-adr-process-to</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017-03-fourth-circuit-decides" key="2017-03-fourth-circuit-decides" itemid="{232F964D-9702-42F7-93C5-95787C81E06E}" fieldid="Title" updated="20220822T143953Z">
+    <en>2017-03-fourth-circuit-decides</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017-06-moving-from-design-build" key="2017-06-moving-from-design-build" itemid="{32078A0E-6F41-41A2-B59C-30203E486855}" fieldid="Title" updated="20220822T143958Z">
+    <en>2017-06-moving-from-design-build</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017-08-california-tax-lawyer" key="2017-08-california-tax-lawyer" itemid="{239CEEFD-1D7C-4EE0-AA16-20964F02A87F}" fieldid="Title" updated="20210819T001726Z">
+    <en>California Tax Lawyer</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2017-08-top-five-tips" key="2017-08-top-five-tips" itemid="{5E883AC6-8F8E-4DCA-9DFA-727B0A4E437B}" fieldid="Title" updated="20210819T001726Z">
+    <en>Top 5 Tips for Executive Directors</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2018-01-cases-provide-insight" key="2018-01-cases-provide-insight" itemid="{6DCFAD21-CF8C-48AF-98D6-EE4565FB98E0}" fieldid="Title" updated="20220822T144012Z">
+    <en>2018-01-cases-provide-insight</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2018-10-tax-qualified-opportunity-funds" key="2018-10-tax-qualified-opportunity-funds" itemid="{9036D85C-C118-4767-BF8F-9F9FC9296277}" fieldid="Title" updated="20220822T144018Z">
+    <en>2018-10-tax-qualified-opportunity-funds</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2018-cal-litigation-spring-summer" key="2018-cal-litigation-spring-summer" itemid="{0D4AD791-B1EC-47A1-BF73-17A196F858AE}" fieldid="Title" updated="20220822T144025Z">
+    <en>2018-cal-litigation-spring-summer</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2019_Labor_Seminar_Materials" key="2019_Labor_Seminar_Materials" itemid="{2F7768A1-D112-4281-B53B-1FA29CF482E8}" fieldid="Title" updated="20220822T144030Z">
+    <en>2019_Labor_Seminar_Materials</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2019-12-California-Real-Property-Journal" key="2019-12-California-Real-Property-Journal" itemid="{D9BD9BCC-2B4C-4896-ADF1-2047AD890CAB}" fieldid="Title" updated="20220822T144036Z">
+    <en>2019-12-California-Real-Property-Journal</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2020 Annual Labor and Employment Booklet" key="2020 Annual Labor and Employment Booklet" itemid="{100DCAE4-57F6-4E83-89BF-5F5DFF774D00}" fieldid="Title" updated="20220822T144042Z">
+    <en>2020 Annual Labor and Employment Booklet</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2020-California-Emergency-Paid-Sick-Leave-Ordinances" key="2020-California-Emergency-Paid-Sick-Leave-Ordinances" itemid="{E0AA30B9-0066-404D-91AD-0516EEAED6DC}" fieldid="Title" updated="20220822T144048Z">
+    <en>2020-California-Emergency-Paid-Sick-Leave-Ordinances</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021 Employee Benefits Update for Private Employers" key="2021 Employee Benefits Update for Private Employers" itemid="{B60F8A9B-9197-4089-AB67-B325809A450D}" fieldid="Title" updated="20220822T144055Z">
+    <en>2021 Employee Benefits Update for Private Employers</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021 Employee Benefits Update for Public Agency Employers" key="2021 Employee Benefits Update for Public Agency Employers" itemid="{7A4CFCBD-5619-4203-A610-E9148801ED8A}" fieldid="Title" updated="20220822T144102Z">
+    <en>2021 Employee Benefits Update for Public Agency Employers</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-01-2-Prop65-Alert" key="2021-01-2-Prop65-Alert" itemid="{A76C3D32-A5AB-4CAE-A972-E63023897F76}" fieldid="Title" updated="20220822T144110Z">
+    <en>2021-01-2-Prop65-Alert</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-05-HansonBridgett_Trademark Modernization" key="2021-05-HansonBridgett_Trademark Modernization" itemid="{1447CF4F-9173-4B99-8F3B-68A6D09D33E4}" fieldid="Keywords" updated="20210819T001726Z">
+    <en>trademark, trademark lawyer, trademark lawyer magazine, raffi, raffi zerounian, justin justin thiele</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-05-HansonBridgett_Trademark Modernization" key="2021-05-HansonBridgett_Trademark Modernization" itemid="{1447CF4F-9173-4B99-8F3B-68A6D09D33E4}" fieldid="Title" updated="20210819T001726Z">
+    <en>An Introduction to the Trademark Modernization Act</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-05-HansonBridgett_Trademark Modernization" key="2021-05-HansonBridgett_Trademark Modernization" itemid="{1447CF4F-9173-4B99-8F3B-68A6D09D33E4}" fieldid="Description" updated="20210819T001726Z">
+    <en>Zerounian &amp; Thiele's featured article in the May 2021 issue of Trademark Lawyer Magazine</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-06-11-daily-journal-pujari-hummer" key="2021-06-11-daily-journal-pujari-hummer" itemid="{2AEDE74D-1A71-44A6-AEFA-FDDE7C7FFCF9}" fieldid="Title" updated="20220822T144121Z">
+    <en>2021-06-11-daily-journal-pujari-hummer</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-06-22-Finish-Line" key="2021-06-22-Finish-Line" itemid="{48691283-72D4-4A4E-A7F5-1226A73B47A8}" fieldid="Title" updated="20220822T144127Z">
+    <en>2021-06-22-Finish-Line</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/2021-Labor-Booklet-FINAL" key="2021-Labor-Booklet-FINAL" itemid="{D91029C1-69B7-43E6-BC01-3E4A3AD491EE}" fieldid="Title" updated="20220822T144133Z">
+    <en>2021-Labor-Booklet-FINAL</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/641" key="641" itemid="{BC4C2CD4-728A-47AA-81FA-8F94D4C0E151}" fieldid="Title" updated="20220822T144141Z">
+    <en>641</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/8 Steps - PLJ Article" key="8 Steps - PLJ Article" itemid="{9D053C95-C09D-47FA-B1B1-52CA5C1D76D9}" fieldid="Title" updated="20220822T144150Z">
+    <en>8 Steps - PLJ Article</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/ABC-10-News-Niran-Somasundaram" key="ABC-10-News-Niran-Somasundaram" itemid="{2714EEC8-E837-4056-9752-D052D751FE1E}" fieldid="Title" updated="20220822T150743Z">
+    <en>ABC-10-News-Niran-Somasundaram</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Bloody Problem_ Free Speech and Private Property Rights Collide in California" key="A Bloody Problem_ Free Speech and Private Property Rights Collide in California" itemid="{30A93419-047C-40C4-8030-728195BF9C3B}" fieldid="Title" updated="20220822T150751Z">
+    <en>A Bloody Problem_ Free Speech and Private Property Rights Collide in California</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" key="A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" itemid="{3A806167-7DCF-48E7-828A-3D8B137E2AB8}" fieldid="Title" updated="20220822T150800Z">
+    <en>A Selective Review of the Intermediate Sanctions Temp Regs Generally Improved All Around</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" key="A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" itemid="{8B6280A7-5D9C-4B0D-AE7F-D54D979C6270}" fieldid="Size" updated="20220822T150938Z">
+    <en>1510530</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" key="A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" itemid="{8B6280A7-5D9C-4B0D-AE7F-D54D979C6270}" fieldid="Extension" updated="20220822T150938Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" key="A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" itemid="{8B6280A7-5D9C-4B0D-AE7F-D54D979C6270}" fieldid="Blob" updated="20220822T150938Z">
+    <en>{05173A50-F92D-4043-8775-9D09737E50AF}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" key="A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" itemid="{8B6280A7-5D9C-4B0D-AE7F-D54D979C6270}" fieldid="Mime Type" updated="20220822T150938Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" key="A Selective Review of the Intermediate Sanctions Temp Regs  Generally Improved All Around" itemid="{8B6280A7-5D9C-4B0D-AE7F-D54D979C6270}" fieldid="Title" updated="20220822T150938Z">
+    <en>A Selective Review of the Intermediate Sanctions Temp Regs Generally Improved All Around</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/ABCDeficiencyCitations" key="ABCDeficiencyCitations" itemid="{A3B2F240-B3B8-444E-922B-CE756701281D}" fieldid="Title" updated="20220822T150946Z">
+    <en>ABCDeficiencyCitations</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Addressing Human Motivation in construction contracts" key="Addressing Human Motivation in construction contracts" itemid="{88860069-1DEE-4952-8E58-4A24C4791098}" fieldid="Title" updated="20220822T150956Z">
+    <en>Addressing Human Motivation in construction contracts</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Adoption of The Public Trust Doctrine in Nevada" key="Adoption of The Public Trust Doctrine in Nevada" itemid="{1541A2F0-66F1-4D47-953B-2A18B6B0FFA3}" fieldid="Size" updated="20220822T151124Z">
+    <en>375244</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Adoption of The Public Trust Doctrine in Nevada" key="Adoption of The Public Trust Doctrine in Nevada" itemid="{1541A2F0-66F1-4D47-953B-2A18B6B0FFA3}" fieldid="Extension" updated="20220822T151124Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Adoption of The Public Trust Doctrine in Nevada" key="Adoption of The Public Trust Doctrine in Nevada" itemid="{1541A2F0-66F1-4D47-953B-2A18B6B0FFA3}" fieldid="Blob" updated="20220822T151124Z">
+    <en>{DB7B9F2D-762F-41B6-8BD0-8B58C7CCFB5E}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Adoption of The Public Trust Doctrine in Nevada" key="Adoption of The Public Trust Doctrine in Nevada" itemid="{1541A2F0-66F1-4D47-953B-2A18B6B0FFA3}" fieldid="Mime Type" updated="20220822T151124Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Adoption of The Public Trust Doctrine in Nevada" key="Adoption of The Public Trust Doctrine in Nevada" itemid="{1541A2F0-66F1-4D47-953B-2A18B6B0FFA3}" fieldid="Title" updated="20220822T151124Z">
+    <en>Adoption of The Public Trust Doctrine in Nevada</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AilingIndustry" key="AilingIndustry" itemid="{7BE667AD-C9E7-4D97-9DD0-6867836AC489}" fieldid="Title" updated="20220822T151133Z">
+    <en>AilingIndustry</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Alameda County Deputy Sheriffs Associations v ACERA" key="Alameda County Deputy Sheriffs Associations v ACERA" itemid="{BDCF6B0A-D004-4467-AD41-0884A07FE2A9}" fieldid="Title" updated="20220822T151140Z">
+    <en>Alameda County Deputy Sheriffs Associations v ACERA</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Allocating Risk in the Sale of a Business" key="Allocating Risk in the Sale of a Business" itemid="{BC192717-DC26-4A0A-AB2A-370CDA699355}" fieldid="Size" updated="20220822T151149Z">
+    <en>747660</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Allocating Risk in the Sale of a Business" key="Allocating Risk in the Sale of a Business" itemid="{BC192717-DC26-4A0A-AB2A-370CDA699355}" fieldid="Extension" updated="20220822T151149Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Allocating Risk in the Sale of a Business" key="Allocating Risk in the Sale of a Business" itemid="{BC192717-DC26-4A0A-AB2A-370CDA699355}" fieldid="Blob" updated="20220822T151149Z">
+    <en>{5259314E-CA24-427E-AC6B-389A178DE095}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Allocating Risk in the Sale of a Business" key="Allocating Risk in the Sale of a Business" itemid="{BC192717-DC26-4A0A-AB2A-370CDA699355}" fieldid="Mime Type" updated="20220822T151149Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Allocating Risk in the Sale of a Business" key="Allocating Risk in the Sale of a Business" itemid="{BC192717-DC26-4A0A-AB2A-370CDA699355}" fieldid="Title" updated="20220822T151149Z">
+    <en>Allocating Risk in the Sale of a Business</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/All-Star Career Transcends Billables" key="All-Star Career Transcends Billables" itemid="{5286880B-D372-41A7-B8DC-86D1EEDBB5C7}" fieldid="Size" updated="20220822T151156Z">
+    <en>155492</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/All-Star Career Transcends Billables" key="All-Star Career Transcends Billables" itemid="{5286880B-D372-41A7-B8DC-86D1EEDBB5C7}" fieldid="Extension" updated="20220822T151156Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/All-Star Career Transcends Billables" key="All-Star Career Transcends Billables" itemid="{5286880B-D372-41A7-B8DC-86D1EEDBB5C7}" fieldid="Blob" updated="20220822T151156Z">
+    <en>{92B19F5A-C7FF-4D61-A9D3-D9DE92BF4646}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/All-Star Career Transcends Billables" key="All-Star Career Transcends Billables" itemid="{5286880B-D372-41A7-B8DC-86D1EEDBB5C7}" fieldid="Mime Type" updated="20220822T151156Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/All-Star Career Transcends Billables" key="All-Star Career Transcends Billables" itemid="{5286880B-D372-41A7-B8DC-86D1EEDBB5C7}" fieldid="Title" updated="20220822T151156Z">
+    <en>All-Star Career Transcends Billables</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Alternative Project Delivery Methods for Public Works Projects in California" key="Alternative Project Delivery Methods for Public Works Projects in California" itemid="{19A7849F-A796-4C7B-8185-E146F6191904}" fieldid="Size" updated="20220822T151206Z">
+    <en>335939</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Alternative Project Delivery Methods for Public Works Projects in California" key="Alternative Project Delivery Methods for Public Works Projects in California" itemid="{19A7849F-A796-4C7B-8185-E146F6191904}" fieldid="Extension" updated="20220822T151206Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Alternative Project Delivery Methods for Public Works Projects in California" key="Alternative Project Delivery Methods for Public Works Projects in California" itemid="{19A7849F-A796-4C7B-8185-E146F6191904}" fieldid="Blob" updated="20220822T151206Z">
+    <en>{FDDBD876-77D3-48F2-A05B-E88D56CCF3ED}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Alternative Project Delivery Methods for Public Works Projects in California" key="Alternative Project Delivery Methods for Public Works Projects in California" itemid="{19A7849F-A796-4C7B-8185-E146F6191904}" fieldid="Mime Type" updated="20220822T151206Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Alternative Project Delivery Methods for Public Works Projects in California" key="Alternative Project Delivery Methods for Public Works Projects in California" itemid="{19A7849F-A796-4C7B-8185-E146F6191904}" fieldid="Title" updated="20220822T151206Z">
+    <en>Alternative Project Delivery Methods for Public Works Projects in California</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/American Lawyer- Kristina Lawson- MP Elect" key="American Lawyer- Kristina Lawson- MP Elect" itemid="{9C3A213D-6969-4A20-8702-3ABC1EB592C3}" fieldid="Title" updated="20220822T151306Z">
+    <en>American Lawyer- Kristina Lawson- MP Elect</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AMLAW08242020458333Hanson" key="AMLAW08242020458333Hanson" itemid="{9A7E0C31-599C-4D92-9F9F-5DCE192280FD}" fieldid="Title" updated="20220822T151315Z">
+    <en>AMLAW08242020458333Hanson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/An-Introduction-Trademark-Modernization-Act" key="An-Introduction-Trademark-Modernization-Act" itemid="{685FF2F1-6E62-4E05-BED9-788A485CA9C7}" fieldid="Title" updated="20220822T151323Z">
+    <en>An-Introduction-Trademark-Modernization-Act</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Annoying-Deficiency-Citations" key="Annoying-Deficiency-Citations" itemid="{F68244C4-55FB-4318-89E4-8EB7E47EF1B2}" fieldid="Title" updated="20220822T151331Z">
+    <en>Annoying-Deficiency-Citations</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AnywhereButHere" key="AnywhereButHere" itemid="{ED3D78E8-6E99-4786-A5CA-AEDC25E527CF}" fieldid="Size" updated="20220822T151935Z">
+    <en>147725</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AnywhereButHere" key="AnywhereButHere" itemid="{ED3D78E8-6E99-4786-A5CA-AEDC25E527CF}" fieldid="Extension" updated="20220822T151935Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AnywhereButHere" key="AnywhereButHere" itemid="{ED3D78E8-6E99-4786-A5CA-AEDC25E527CF}" fieldid="Blob" updated="20220822T151935Z">
+    <en>{75B9EF90-7EAB-4898-A9C5-9F391717C93C}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AnywhereButHere" key="AnywhereButHere" itemid="{ED3D78E8-6E99-4786-A5CA-AEDC25E527CF}" fieldid="Mime Type" updated="20220822T151935Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AnywhereButHere" key="AnywhereButHere" itemid="{ED3D78E8-6E99-4786-A5CA-AEDC25E527CF}" fieldid="Title" updated="20220822T151935Z">
+    <en>AnywhereButHere</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Appellate Myths RealitiesHanson Bridgett DJ 8720" key="Appellate Myths RealitiesHanson Bridgett DJ 8720" itemid="{2BA59193-CC3C-4C6F-AD6F-5E921E0B120D}" fieldid="Title" updated="20220822T151944Z">
+    <en>Appellate Myths RealitiesHanson Bridgett DJ 8720</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration Agreements" key="Arbitration Agreements" itemid="{0807FAA0-7ECD-4A0F-BAD1-3EBD6ED92173}" fieldid="Size" updated="20220822T151952Z">
+    <en>160305</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration Agreements" key="Arbitration Agreements" itemid="{0807FAA0-7ECD-4A0F-BAD1-3EBD6ED92173}" fieldid="Extension" updated="20220822T151952Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration Agreements" key="Arbitration Agreements" itemid="{0807FAA0-7ECD-4A0F-BAD1-3EBD6ED92173}" fieldid="Blob" updated="20220822T151952Z">
+    <en>{C43D2683-20F3-4FA2-AC68-5C2FD6ABBF3E}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration Agreements" key="Arbitration Agreements" itemid="{0807FAA0-7ECD-4A0F-BAD1-3EBD6ED92173}" fieldid="Mime Type" updated="20220822T151952Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration Agreements" key="Arbitration Agreements" itemid="{0807FAA0-7ECD-4A0F-BAD1-3EBD6ED92173}" fieldid="Title" updated="20220822T151952Z">
+    <en>Arbitration Agreements</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration and Other Contractual Provisions Designed to Decrease Provider Liability" key="Arbitration and Other Contractual Provisions Designed to Decrease Provider Liability" itemid="{A12E82C2-3E85-46C3-827C-631C09E8DC08}" fieldid="Title" updated="20220822T151959Z">
+    <en>Arbitration and Other Contractual Provisions Designed to Decrease Provider Liability</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Arbitration Clauses and other Contract Protections" key="Arbitration Clauses and other Contract Protections" itemid="{4562B0D0-C4C7-492C-9EDB-D9A9B97503A1}" fieldid="Title" updated="20220822T152007Z">
+    <en>Arbitration Clauses and other Contract Protections</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AreYouDoingEnough1-05" key="AreYouDoingEnough1-05" itemid="{363010A6-9062-439A-8D99-2B29744D8F1F}" fieldid="Title" updated="20220822T152014Z">
+    <en>AreYouDoingEnough1-05</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Article in CALA News  Views (2)" key="Article in CALA News  Views (2)" itemid="{9355CD5F-570E-43BC-8DE2-B32EEA34AF76}" fieldid="Title" updated="20220822T152022Z">
+    <en>Article in CALA News Views (2)</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/As Firms Modernize So Should Law on Conflicts" key="As Firms Modernize So Should Law on Conflicts" itemid="{AADC2A48-81F3-4EAD-9535-0EC641D55F50}" fieldid="Size" updated="20220822T152032Z">
+    <en>810233</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/As Firms Modernize So Should Law on Conflicts" key="As Firms Modernize So Should Law on Conflicts" itemid="{AADC2A48-81F3-4EAD-9535-0EC641D55F50}" fieldid="Extension" updated="20220822T152032Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/As Firms Modernize So Should Law on Conflicts" key="As Firms Modernize So Should Law on Conflicts" itemid="{AADC2A48-81F3-4EAD-9535-0EC641D55F50}" fieldid="Blob" updated="20220822T152032Z">
+    <en>{F0706B34-4A89-4469-BEE3-AF2ABA072BE6}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/As Firms Modernize So Should Law on Conflicts" key="As Firms Modernize So Should Law on Conflicts" itemid="{AADC2A48-81F3-4EAD-9535-0EC641D55F50}" fieldid="Mime Type" updated="20220822T152032Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/As Firms Modernize So Should Law on Conflicts" key="As Firms Modernize So Should Law on Conflicts" itemid="{AADC2A48-81F3-4EAD-9535-0EC641D55F50}" fieldid="Title" updated="20220822T152032Z">
+    <en>As Firms Modernize So Should Law on Conflicts</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/ASHA SIB  Medical Marijuana in Seniors Housing Fall 2016" key="ASHA SIB  Medical Marijuana in Seniors Housing Fall 2016" itemid="{0DFC45E6-F758-4F51-A495-E909543531C3}" fieldid="Title" updated="20220822T152040Z">
+    <en>ASHA SIB Medical Marijuana in Seniors Housing Fall 2016</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/ASHA-Argentum-Webinar_Coronavirus-Preparation" key="ASHA-Argentum-Webinar_Coronavirus-Preparation" itemid="{35F50AE3-508B-4B75-A811-405062E10562}" fieldid="Title" updated="20210819T001726Z">
+    <en>ASHA-Argentum-COVID-19-Webinar</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AshcraftFall2014" key="AshcraftFall2014" itemid="{A9DF7613-A6D7-442C-B4E6-ED12D85ED4F8}" fieldid="Title" updated="20220822T152052Z">
+    <en>AshcraftFall2014</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Ashcroft v Iqbal Giving Teeth To The Federal Pleading Standard" key="Ashcroft v Iqbal Giving Teeth To The Federal Pleading Standard" itemid="{DDEB0EFB-7816-4C8D-95C0-8F0A38716859}" fieldid="Title" updated="20220822T152059Z">
+    <en>Ashcroft v Iqbal Giving Teeth To The Federal Pleading Standard</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AttorneyRequestRecords" key="AttorneyRequestRecords" itemid="{40715C4B-60A2-4E38-8D92-2511487E2B05}" fieldid="Title" updated="20220822T152105Z">
+    <en>AttorneyRequestRecords</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" key="Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" itemid="{847CE54A-BEC9-4B40-93BF-574F5606BE04}" fieldid="Size" updated="20220822T152112Z">
+    <en>690104</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" key="Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" itemid="{847CE54A-BEC9-4B40-93BF-574F5606BE04}" fieldid="Extension" updated="20220822T152112Z">
+    <en>pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" key="Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" itemid="{847CE54A-BEC9-4B40-93BF-574F5606BE04}" fieldid="Blob" updated="20220822T152112Z">
+    <en>{97BB0B98-21EE-4155-87B6-A1F5F4F52DD1}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" key="Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" itemid="{847CE54A-BEC9-4B40-93BF-574F5606BE04}" fieldid="Mime Type" updated="20220822T152112Z">
+    <en>application/pdf</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" key="Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers" itemid="{847CE54A-BEC9-4B40-93BF-574F5606BE04}" fieldid="Title" updated="20220822T152112Z">
+    <en>Avoiding the Two-Front War Simultaneous Litigation Against Plaintiffs and Insurers</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/AWS - Law360 - In Defense Of Copyright Law" key="AWS - Law360 - In Defense Of Copyright Law" itemid="{520C1E6D-B383-42D4-A5E5-F9DE7C4051F6}" fieldid="Title" updated="20220822T152120Z">
+    <en>AWS - Law360 - In Defense Of Copyright Law</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/B Corporation" key="B Corporation" itemid="{FAF37F13-87DD-4631-8FD7-7E8FA798DE6D}" fieldid="Keywords" updated="20210819T001726Z">
+    <en>B Corp, Benefit Corporation, Jonathan Storper, Conscious Company Magazine, B Lab, Hanson Bridgett, Certified B Corp</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/B Corporation" key="B Corporation" itemid="{FAF37F13-87DD-4631-8FD7-7E8FA798DE6D}" fieldid="Title" updated="20210819T001726Z">
+    <en>B Corp vs. Benefit Corporation - Do You Know the Difference?</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/B Corporation" key="B Corporation" itemid="{FAF37F13-87DD-4631-8FD7-7E8FA798DE6D}" fieldid="Description" updated="20210819T001726Z">
+    <en>B Corp vs. Benefit Corporation - Do You Know the Difference?</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/BenefitCorporation" key="BenefitCorporation" itemid="{040C9AC0-B25E-4DAD-BF9A-9CAAD8000717}" fieldid="Title" updated="20220822T152129Z">
+    <en>BenefitCorporation</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Benefit-Corporation-Legislation-2011-04" key="Benefit-Corporation-Legislation-2011-04" itemid="{5299D7EC-26A2-4414-AD2A-149D7A3BDFED}" fieldid="Title" updated="20220822T152136Z">
+    <en>Benefit-Corporation-Legislation-2011-04</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Benefits of Model-Based Process Integration_HWA" key="Benefits of Model-Based Process Integration_HWA" itemid="{63CFD80E-B739-4A6C-B08C-E07E6F9CAB17}" fieldid="Title" updated="20220822T152142Z">
+    <en>Benefits of Model-Based Process Integration_HWA</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Bernard - CSDA magazine article" key="Bernard - CSDA magazine article" itemid="{21422E1A-B073-4132-B4A8-FF1EFB44CD99}" fieldid="Title" updated="20220822T152149Z">
+    <en>Bernard - CSDA magazine article</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/BewareLndlrdTnntRestrict" key="BewareLndlrdTnntRestrict" itemid="{6B7AC42A-5605-454D-986A-F3801E9D3430}" fieldid="Title" updated="20220822T152156Z">
+    <en>BewareLndlrdTnntRestrict</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Bill Would Alter Legal Landscape for Nursing Home Arbitration Agreements" key="Bill Would Alter Legal Landscape for Nursing Home Arbitration Agreements" itemid="{94A61332-75BB-4A88-83C2-68BBBB9B408F}" fieldid="Title" updated="20220822T152203Z">
+    <en>Bill Would Alter Legal Landscape for Nursing Home Arbitration Agreements</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/bim_building_information_modeling_a_framework_for_collaboration" key="bim_building_information_modeling_a_framework_for_collaboration" itemid="{4DFA196F-B51C-4493-A603-82D35C9B9858}" fieldid="Title" updated="20220822T152210Z">
+    <en>bim_building_information_modeling_a_framework_for_collaboration</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/BIM_Elements" key="BIM_Elements" itemid="{3BCD9045-7B70-4BB8-8A53-720495CE7105}" fieldid="Title" updated="20220822T152218Z">
+    <en>BIM_Elements</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/BIM_Elements_Interactive" key="BIM_Elements_Interactive" itemid="{BA4C4A34-0EBE-4001-81EA-E57DBC480B5A}" fieldid="Title" updated="20220822T152225Z">
+    <en>BIM_Elements_Interactive</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/BIM_IPD" key="BIM_IPD" itemid="{1135C61C-ECD5-4B4C-8B06-D411A68E8D8D}" fieldid="Title" updated="20220822T152232Z">
+    <en>BIM_IPD</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/BIM_Presentation" key="BIM_Presentation" itemid="{0B135F01-C0BA-4A55-AA64-5EDE64F43299}" fieldid="Title" updated="20220822T152238Z">
+    <en>BIM_Presentation</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Bitcoin" key="Bitcoin" itemid="{2044873D-126F-4E0A-8CDD-6113A5C71A6E}" fieldid="Title" updated="20220822T152244Z">
+    <en>Bitcoin</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Bracing for Construction Claims" key="Bracing for Construction Claims" itemid="{AD92A600-8057-4320-9D04-58E73E275954}" fieldid="Title" updated="20220822T152251Z">
+    <en>Bracing for Construction Claims</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Files/Publications/Bracing_for_construction_claims" key="Bracing_for_construction_claims" itemid="{4A12A13D-4D37-4965-AECF-2077AC25F99C}" fieldid="Title" updated="20220822T152259Z">
+    <en>Bracing_for_construction_claims</en>
+  </phrase>
+</sitecore>

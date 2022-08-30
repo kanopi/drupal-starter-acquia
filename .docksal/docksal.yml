@@ -1,0 +1,44 @@
+version: "2.1"
+
+services:
+  cli:
+    environment:
+      - COMPOSER_MEMORY_LIMIT=-1
+      - THEME
+      - ACQUIA_SITE
+      - APACHE_FILE_PROXY
+    volumes:
+      - ${PROJECT_ROOT}/.docksal/etc/drush:/etc/drush:ro
+  # Fake email
+  mail:
+    extends:
+      file: ${HOME}/.docksal/stacks/services.yml
+      service: mail
+  # Storybook URL
+  # Acts as a reverse proxy and just proxies requests from storybook.explo.docksal to cli:6006
+  storybook:
+    image: wodby/nginx
+    depends_on:
+      - cli
+    environment:
+      NGINX_BACKEND_HOST: cli
+      # Port 6006 Used for storybook in CLI container.
+      NGINX_BACKEND_PORT: 6006
+      NGINX_VHOST_PRESET: http-proxy
+    labels:
+      - io.docksal.virtual-host=storybook.${VIRTUAL_HOST}
+
+  # dashboard displaying results from `fin pa11y`
+  pa11y:
+    # hostname needed in order to check local links
+    hostname: pa11y
+    image: outrigger/pa11y-dashboard
+    labels:
+      # Set host and port for pa11y container.
+      - io.docksal.virtual-host=pa11y.${VIRTUAL_HOST}
+      - io.docksal.virtual-port=8080
+    expose:
+      - "8080"
+    volumes:
+      # dashboard requires /app/tests/pa11y/report.json
+      - ../tests/:/app/tests

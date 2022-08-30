@@ -1,0 +1,219 @@
+# https://circleci.com/docs/2.0/workflows/#using-workspaces-to-share-data-among-jobs
+THEME_NAME: &THEME_NAME "THEME"
+THEME_PATH: &THEME_PATH "docroot/themes/custom/THEME"
+ACQUIA_REPO: &ACQUIA_REPO "xxxyyy@svn-23450.prod.hosting.acquia.com:xxxxx.git"
+ACQUIA_SITE_ID: &ACQUIA_SITE_ID "xxxyyy"
+CIMG_NODE: &CIMG_NODE "cimg/node:lts-browsers" # Currently 16.  Matches theme .NVMRC
+CIMG_PHP: &CIMG_PHP "cimg/php:8.0" # This is the version of PHP set in acquia.
+CIMG_PHP_TAG: &CIMG_PHP_TAG "8.0" # This is the version of PHP set in acquia.
+version: 2.1
+
+orbs:
+  ci-tools: kanopi/ci-tools@2        # https://circleci.com/developer/orbs/orb/kanopi/ci-tools
+  cms-updates: kanopi/cms-updates@2  # https://circleci.com/developer/orbs/orb/kanopi/cms-updates
+  slack: circleci/slack@3.4.2
+  deploy: kanopi/deploy@1            # https://circleci.com/developer/orbs/orb/kanopi/deploy
+
+jobs:
+
+  compile-theme:
+    docker:
+      # This version of node should match whats in the theme NVM setup
+      - image: *CIMG_NODE
+    working_directory: ~/project
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Node cache
+          keys:
+            - node_cache-{{ checksum "docroot/themes/custom/THEME/package-lock.json" }}
+            - node_cache-
+      - run:
+          name: Install Node Packages.
+          command: npm install
+          path: *THEME_PATH
+
+      - save_cache:
+          name: Save node cache
+          key: node_cache-{{ checksum "docroot/themes/custom/THEME/package-lock.json" }}
+          paths:
+            - docroot/themes/custom/THEME/node_modules
+      - run:
+          name: Run Storybook Build
+          command: npm run build
+          path: *THEME_PATH
+      - persist_to_workspace:
+          root: *THEME_PATH
+          paths:
+            - dist
+
+  compile-drupal:
+    docker:
+      # This version of node should match whats in the theme NVM setup
+      - image: *CIMG_PHP
+    working_directory: ~/project
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Composer cache
+          keys:
+            - composer_cache-{{ checksum "composer.lock" }}
+            - composer_cache-
+      - run:
+          name: Composer build
+          command: composer install --no-dev
+
+      - save_cache:
+          name: Save Composer cache
+          key: composer_cache-{{ checksum "composer.lock" }}
+          paths:
+            - vendor
+
+      - attach_workspace:
+          at: /tmp/workspace
+
+      - run:
+          name: Copy compiled theme assets.
+          environment:
+            THEME_PATH: *THEME_PATH
+          command: |
+            cp -vr /tmp/workspace/dist "$THEME_PATH"
+
+      - ci-tools/remove-files:
+          docroot: "docroot"
+
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - docroot
+            - vendor
+
+
+
+#      - slack/notify:
+#          message: "Finished multidev build ${MULTIDEV_SITE_URL}\n
+#          Branch: *${CIRCLE_BRANCH}*\n
+#          PR: ${CIRCLE_PULL_REQUEST}"
+#          include_job_number_field: false
+#          include_project_field: false
+#          webhook: https://hooks.slack.com/services/T02BTKQ5F/B0225B1RPV1/9999111100000
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - ci-tools/composer:
+          tag: *CIMG_PHP_TAG
+          name: "phpstan"
+          context: kanopi-code
+          command: 'phpstan'
+          save-output: true
+          post-to-github: true
+          filters:
+            branches:
+              ignore:
+                - main
+      - ci-tools/composer:
+          tag: *CIMG_PHP_TAG
+          name: "phpcs"
+          context: kanopi-code
+          command: 'code-sniff'
+          save-output: true
+          post-to-github: true
+          filters:
+            branches:
+              ignore:
+                - main
+      - ci-tools/composer:
+          tag: *CIMG_PHP_TAG
+          name: "rector-modules"
+          context: kanopi-code
+          command: 'rector-modules'
+          save-output: true
+          post-to-github: true
+          filters:
+            branches:
+              ignore:
+                - main
+      - ci-tools/composer:
+          tag: *CIMG_PHP_TAG
+          name: "rector-theme"
+          context: kanopi-code
+          command: 'rector-themes'
+          save-output: true
+          post-to-github: true
+          filters:
+            branches:
+              ignore:
+                - main
+
+  deploy:
+    jobs:
+      - compile-theme:
+          context: kanopi-code
+          filters:
+            branches:
+              only:
+                - main
+      - deploy/git:
+          image: *CIMG_PHP
+          name: Deploy to Acquia DEV
+          context: kanopi-code
+          git-remote-url: *ACQUIA_REPO
+          git-commit-assets: true
+          requires:
+            - compile-theme
+          pre-push:
+            - restore_cache:
+                name: Restore Composer cache
+                keys:
+                  - deploy_composer_cache-{{ checksum "composer.lock" }}
+                  - deploy_composer_cache-
+            - run:
+                name: Composer build
+                command: composer install
+
+            - save_cache:
+                name: Save Composer cache
+                key: deploy_composer_cache-{{ checksum "composer.lock" }}
+                paths:
+                  - vendor
+
+            # Workspace is attached by default.
+            - run:
+                name: Copy compiled theme assets.
+                environment:
+                  THEME_PATH: *THEME_PATH
+                command: |
+                  cp -vr ./dist "$THEME_PATH"
+
+            - ci-tools/remove-files:
+                docroot: "docroot"
+          post-push:
+            - slack/notify:
+                message: "Finished push to Acquia\n
+                Acquia Dashboard: https://cloud.acquia.com/a/applications/13dc7b3f-86da-4185-acb1-d0be1d952a1f"
+                include_job_number_field: false
+                include_project_field: false
+                webhook: "https://hooks.slack.com/services/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"
+          filters:
+            branches:
+              only:
+                - main
+
+#  CMS Updates orbs needs to have acquia as an option.
+#  automated-updates:
+#    when:
+#      and:
+#        # Looks for a trigger to run in the CircleCI project with the "automatic updates" name.
+#        - equal: [ scheduled_pipeline, << pipeline.trigger_source >> ]
+#        - equal: [ "automatic updates", << pipeline.schedule.name >> ]
+#    jobs:
+#      - cms-updates/run-update:
+#          cms: drupal
+#          docroot: docroot
+#          site-env: dev
+#          site-hosting: acquia
+#          site-id: *ACQUIA_SITE_ID
+#          update-method: composer
+#          context: kanopi-code

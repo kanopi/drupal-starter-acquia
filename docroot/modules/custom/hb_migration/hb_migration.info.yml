@@ -1,0 +1,5 @@
+name: HB Migration
+type: module
+description: Hanson Bridgett Migration Related Functions.
+package: HB
+core_version_requirement: ^8 || ^9

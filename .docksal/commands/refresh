@@ -1,0 +1,145 @@
+#!/usr/bin/env bash
+
+#: exec_target = cli
+
+## Refresh the local setup with the database
+##
+## Usage: fin refresh
+##                --site [site]    (Site ID on Acquia)                [required]
+##                --env [env]      (Site Env on Acquia)               [default: dev]
+##                --db [database]  (Database name to pull)            [default: all]
+##                --live           (Pull a live database)             [default: false]
+##                --data [data]    (Data to pull db/files/all)        [default: db]
+##                --wait [wait]    (How much time to wait in seconds) [default: 5]
+##                --rsync [rsync]  (Rsync Options)                    [default: -avz]
+##
+
+set -e
+
+( [[ "${SECRET_ACQUIA_CLI_KEY}" == "" ]] || [[ "${SECRET_ACQUIA_CLI_SECRET}" == "" ]] ) &&
+  echo "SECRET_ACQUIA_CLI_KEY and SECRET_ACQUIA_CLI_SECRET variables required." &&
+  exit 1
+
+# Default Variables
+LIVE=false
+SLEEP_TIME=5
+ACQUIA_ENV=${ACQUIA_ENV:-dev}
+ELEMENTS=db
+RSYNC_OPTIONS="-avz"
+
+# options may be followed by one colon to indicate they have a required argument
+if ! options=$(getopt -o s:e:d:w:r:l -l site:,env:,live,data:,wait:,db:,delete-files -- "$@"); then
+    exit 1
+fi
+
+while [ $# -gt 0 ]; do
+    case $1 in
+    -s|--site) ACQUIA_SITE="$2"; shift ;;
+    -e|--env) ACQUIA_ENV="$2"; shift ;;
+    -r|--db) ACQUIA_DB="$2"; shift;;
+    -l|--live) LIVE=true; ;;
+    -d|--data) ELEMENTS="$2"; shift;;
+    -w|--wait) SLEEP_TIME="$2"; shift;;
+    -o|--rsync) RSYNC_OPTIONS="$2"; shift;;
+    --delete-files) DELETE_FILES=true; ;;
+    esac
+    shift
+done
+
+[[ "${ACQUIA_SITE}" == "" ]] && echo "ACQUIA_SITE required" && exit 1;
+
+echo "Pulling Site: ${ACQUIA_SITE}..."
+
+# Create Local Database
+create_db () {
+  local DB=$1
+  local DOWNLOAD_FILE=$2
+  [[ "${DB}" == "" ]] || [[ "${DOWNLOAD_FILE}" == "" ]] || [[ ! -f ${DOWNLOAD_FILE} ]] && echo "Database name required and or Downloaded file does not exist..." && exit 1;
+  mysql -u root -p${MYSQL_ROOT_PASSWORD} -h ${MYSQL_HOST} -e "DROP DATABASE IF EXISTS ${DB};"
+  mysql -u root -p${MYSQL_ROOT_PASSWORD} -h ${MYSQL_HOST} -e "CREATE DATABASE IF NOT EXISTS \`${DB}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
+  mysql -u root -p${MYSQL_ROOT_PASSWORD} -h ${MYSQL_HOST} -e "GRANT ALL PRIVILEGES ON \`${DB}\`.* TO \`${MYSQL_USER}\`";
+  zcat < ${DOWNLOAD_FILE} | mysql -u ${MYSQL_USER} -p${MYSQL_PASSWORD} -h ${MYSQL_HOST} ${DB}
+}
+
+# Pull Database from Acquia...
+pull_db () {
+  local AC_DB=$1
+  DOWNLOAD_FILE=/tmp/${ACQUIA_SITE}.${ACQUIA_ENV}.${AC_DB}.sql.gz
+
+  [[ "${AC_DB}" == "" ]] && return;
+
+  if [[ ! -f $DOWNLOAD_FILE ]] || [[ ! -z $(find ${DOWNLOAD_FILE} -mmin +360) ]] || [[ "${LIVE}" != "" ]]; then
+
+      if [[ -f "${DOWNLOAD_FILE}" ]]; then
+        echo "${DOWNLOAD_FILE} needs updating..."
+        rm -rf $DOWNLOAD_FILE || true
+      fi
+
+      if [[ ! -z $(find ${DOWNLOAD_FILE} -mmin +360) ]] || [[ "${LIVE}" != "" ]]; then
+        echo "Deleting old file..."
+        rm -rf $DOWNLOAD_FILE || true
+      fi
+
+      if [[ "${LIVE}" == "" ]]; then
+        echo "Getting Last Backup..."
+        DOWNLOAD_ID=$(acli --no-interaction api:environments:database-backup-list --limit 1 -- ${ACQUIA_SITE}.${ACQUIA_ENV} ${AC_DB} | jq .[].id -r)
+      fi
+
+      if [[ "${DOWNLOAD_ID}" == "" ]]; then
+        echo "Creating Backup..."
+        NOTIFICATION_ID=$(acli --no-interaction api:environments:database-backup-create ${ACQUIA_SITE}.${ACQUIA_ENV} ${AC_DB} | jq -r ._links.notification.href | sed 's#https://cloud.acquia.com/api/notifications/##')
+        STATUS=$(acli --no-interaction api:notifications:find ${NOTIFICATION_ID} | jq -r .status)
+        while [[ "${STATUS}" != "completed" ]]; do
+          sleep ${SLEEP_TIME}
+          echo "Checking Backup Status..."
+          STATUS=$(acli --no-interaction api:notifications:find ${NOTIFICATION_ID} | jq -r .status)
+        done
+
+        DOWNLOAD_ID=$(acli --no-interaction api:environments:database-backup-list --limit 1 -- ${ACQUIA_SITE}.${ACQUIA_ENV} ${AC_DB} | jq .[].id -r)
+      fi
+
+      if [[ "${DOWNLOAD_ID}" == "" ]]; then
+          echo "Issue creating backup on Acquia..."
+          exit 1
+      fi
+
+      echo "Getting Download Url..."
+      DOWNLOAD_URL=$(acli --no-interaction api:environments:database-backup-download -- ${ACQUIA_SITE}.${ACQUIA_ENV} ${AC_DB} ${DOWNLOAD_ID} | jq .url -r)
+
+      echo "Downloading Backup..."
+      curl -fsSL -o ${DOWNLOAD_FILE} ${DOWNLOAD_URL}
+  fi
+
+  echo "Importing Database..."
+  create_db $AC_DB $DOWNLOAD_FILE
+}
+
+if [[ "${ELEMENTS}" == 'all' ]] || [[ "${ELEMENTS}" == 'db' ]]; then
+  echo "Running Database Sync..."
+  if [[ "${ACQUIA_DB}" == "" ]]; then
+    for DB in $(acli --no-interaction api:environments:database-list ${ACQUIA_SITE}.${ACQUIA_ENV} | jq -r .[].name)
+    do
+      echo "Starting on database ${DB}..."
+      pull_db $DB
+    done
+  else
+    echo "Starting on database ${ACQUIA_DB}..."
+    pull_db ${ACQUIA_DB}
+  fi
+  drush cr
+fi
+
+if [[ "${ELEMENTS}" = "all" ]] || [[ "${ELEMENTS}" == "files" ]]; then
+  echo "Running File Sync..."
+  SSH_URL=$(acli --no-interaction api:applications:environment-list ${ACQUIA_SITE} | jq -r --arg "env" "${ACQUIA_ENV}" '.[] | select(.name == $env) | .ssh_url')
+  DEFAULT_DIR=${PROJECT_ROOT}/${DOCROOT}/sites/default
+  FILES_DIR=${DEFAULT_DIR}/files/
+  # Make default directory writeable
+  chmod +w ${PROJECT_ROOT}/${DOCROOT}/sites/default
+  # Delete current files directory
+  [[ $DELETE_FILES ]] && rm -rf ${FILES_DIR} && mkdir ${FILES_DIR}
+  # Rsync Files
+  rsync ${RSYNC_OPTIONS} ${SSH_URL}:/var/www/html/${ACQUIA_SITE}${ACQUIA_ENV}/docroot/sites/default/files/ ${FILES_DIR}
+fi
+
+echo "Refresh Done!"

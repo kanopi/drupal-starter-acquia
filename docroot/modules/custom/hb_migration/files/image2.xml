@@ -1,0 +1,599 @@
+﻿<sitecore>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Brian Schnarr/Schnarr_Brian_1" key="Schnarr_Brian_1" itemid="{D4AD4CCF-52FB-4399-9B8C-A18B4C6725C9}" fieldid="Alt" updated="20170614T185825Z">
+    <en>Brian Schnarr</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Brian Schnarr/Schnarr_Brian_2" key="Schnarr_Brian_2" itemid="{9DACE2BA-009D-4011-9579-54E704FF7F39}" fieldid="Alt" updated="20170614T185838Z">
+    <en>Brian Schnarr</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Brian Schnarr/Schnarr_Brian_3" key="Schnarr_Brian_3" itemid="{93321D4D-5E90-4A5E-8B8E-1488728225D3}" fieldid="Alt" updated="20170614T185851Z">
+    <en>Brian Schnarr</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Brian Schnarr/Schnarr_Brian_Temp" key="Schnarr_Brian_Temp" itemid="{F0D7E842-1C6C-4D36-A09A-5B355BDCD9FF}" fieldid="Alt" updated="20170614T185808Z">
+    <en>Brian Schnarr</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Bryan Gragg/Gragg_Bryan1" key="Gragg_Bryan1" itemid="{D18B1FA1-0A8F-40DD-9CAB-29A3185B8DD8}" fieldid="Alt" updated="20180413T204645Z">
+    <en>Bryan Gragg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Bryan Gragg/Gragg_Bryan2" key="Gragg_Bryan2" itemid="{50E4DBC9-90CC-4068-B695-1A9C351E0922}" fieldid="Alt" updated="20180413T204644Z">
+    <en>Bryan Gragg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Bryan Gragg/Gragg_Bryan3" key="Gragg_Bryan3" itemid="{B7D1B3DB-D2C6-48E7-B495-52B68A821367}" fieldid="Alt" updated="20180413T205131Z">
+    <en>Bryan Gragg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_137_238x296" key="Shih_Candice_137_238x296" itemid="{626A5841-417F-4E2F-9A2A-B87F46A1A8B5}" fieldid="Alt" updated="20140905T190728Z">
+    <en>Candice Shih</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_185_238x296" key="Shih_Candice_185_238x296" itemid="{C0A5235D-8B9D-479B-B0B6-E717AF52EF43}" fieldid="Alt" updated="20140905T190729Z">
+    <en>Candice Shih</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_212_238x296" key="Shih_Candice_212_238x296" itemid="{B9AE272B-D373-4A1B-8006-EC15AC378520}" fieldid="Alt" updated="20140905T190731Z">
+    <en>Candice Shih</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_285_238x296" key="Shih_Candice_285_238x296" itemid="{83A3DFD3-1BA2-4346-BC76-DB6FEBC8088C}" fieldid="Alt" updated="20140905T190732Z">
+    <en>Candice Shih</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_238x196" key="Shih_Candice_238x196" itemid="{46FF5E1B-D88A-4F51-A991-9FA2019F02E1}" fieldid="Alt" updated="20200213T000431Z">
+    <en>Candice Shih</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_238x196/samir abdelnour headshot" key="samir abdelnour headshot" itemid="{2C39BED8-134E-4CFE-8119-7315963296EE}" fieldid="Alt" updated="20210825T171916Z">
+    <en>samir abdelnour headshot</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Candice Shih/Shih_Candice_238x196/samir abdelnour headshot" key="samir abdelnour headshot" itemid="{2C39BED8-134E-4CFE-8119-7315963296EE}" fieldid="Description" updated="20210825T171916Z">
+    <en>samir abdelnour headshot</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Carol Malenka/Malenka_Carol_005_238x296" key="Malenka_Carol_005_238x296" itemid="{AC69E24E-E08B-4C71-BA19-619D47B66557}" fieldid="Alt" updated="20120326T192236Z">
+    <en>Carol Malenka</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Caroline Burnett/Burnett_Caroline_015_238x296" key="Burnett_Caroline_015_238x296" itemid="{03271050-8707-48B4-A99D-630C4C275AD4}" fieldid="Alt" updated="20111013T150407Z">
+    <en>Caroline Burnett</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Caroline Burnett/Burnett_Caroline_027_238x296" key="Burnett_Caroline_027_238x296" itemid="{86E6FC15-6206-4B95-9A82-8023F1600864}" fieldid="Alt" updated="20111013T150405Z">
+    <en>Caroline Burnett</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Caroline Burnett/Burnett_Caroline_036_238x296" key="Burnett_Caroline_036_238x296" itemid="{AEE05CB8-4E8F-4504-AB61-6D00EB599504}" fieldid="Alt" updated="20111013T150406Z">
+    <en>Caroline Burnett</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Carson Niello/niello-carson-238x296" key="niello-carson-238x296" itemid="{49F33434-50A8-4EA6-ADF6-AF19AE222194}" fieldid="Alt" updated="20220727T211823Z">
+    <en>Carson Niello</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Groves/Groves_Catherine-100r_238x296" key="Groves_Catherine-100r_238x296" itemid="{150D0F75-101F-4EB2-868F-CC9FA6D4129C}" fieldid="Alt" updated="20130501T185654Z">
+    <en>Catherine Groves</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Groves/Groves_Catherine-112r_238x296" key="Groves_Catherine-112r_238x296" itemid="{15013E70-BED4-46FB-9946-5347D696D464}" fieldid="Alt" updated="20130501T185722Z">
+    <en>Catherine Groves</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Groves/Groves_Catherine-180r_238x296" key="Groves_Catherine-180r_238x296" itemid="{6CFB69B8-EB17-44BE-93F5-2D4B87B1CD16}" fieldid="Alt" updated="20130501T185733Z">
+    <en>Catherine Groves</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Groves/Groves_Catherine-186r_238x296" key="Groves_Catherine-186r_238x296" itemid="{FB835926-D440-491D-96BD-C9A046732063}" fieldid="Alt" updated="20130501T185742Z">
+    <en>Catherine Groves</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_100r_238x296" key="Johnson_Catherine_100r_238x296" itemid="{BE5B175D-49FC-4351-8A1A-810903574B64}" fieldid="Alt" updated="20111114T194026Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_102r_238x296" key="Johnson_Catherine_102r_238x296" itemid="{E47DB3DD-38EB-4B03-940C-92AC3D39D1FF}" fieldid="Alt" updated="20111114T194023Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_106r_238x296" key="Johnson_Catherine_106r_238x296" itemid="{C4DD883D-B705-48FE-9EF7-6D0A59F27BBB}" fieldid="Alt" updated="20130430T215208Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_115r_238x196" key="Johnson_Catherine_115r_238x196" itemid="{DD32FEE5-5044-4B2B-BA8A-7C86B536FD9B}" fieldid="Alt" updated="20130430T221930Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_115r_238x296" key="Johnson_Catherine_115r_238x296" itemid="{29C8F84E-CC34-4768-942E-EA55DC4E3239}" fieldid="Alt" updated="20130430T215218Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_116r_238x296" key="Johnson_Catherine_116r_238x296" itemid="{C94F377E-8A1A-440A-A4B2-58459D0D912A}" fieldid="Alt" updated="20130430T215229Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_118r_238x296" key="Johnson_Catherine_118r_238x296" itemid="{8ADF28C6-BEF5-426B-B767-685EF9B0096D}" fieldid="Alt" updated="20130430T215242Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_121r_238x296" key="Johnson_Catherine_121r_238x296" itemid="{8B7FE34C-79DE-4219-8C57-B1B6E84BBF88}" fieldid="Alt" updated="20111114T194021Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_129r_238x296" key="Johnson_Catherine_129r_238x296" itemid="{5309D668-2493-481C-8796-C010A07AF865}" fieldid="Alt" updated="20111114T194024Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Catherine Johnson/Johnson_Catherine_149r_238x296" key="Johnson_Catherine_149r_238x296" itemid="{7688B90D-B8C2-4A25-9718-5D9252EEBAA0}" fieldid="Alt" updated="20111114T194020Z">
+    <en>Catherine Johnson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Celia Guzman/Celia_Guzman_1" key="Celia_Guzman_1" itemid="{E594F175-D8D0-401E-96DE-F53247A09C2A}" fieldid="Alt" updated="20181126T222358Z">
+    <en>Celia Guzman</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Celia Guzman/Celia_Guzman_3" key="Celia_Guzman_3" itemid="{FEB2CD7B-3C9B-45B0-9DF8-1EAA89FB5E13}" fieldid="Alt" updated="20181126T222358Z">
+    <en>Celia Guzman</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Chris Walters/Walters_Chris_003_238x296" key="Walters_Chris_003_238x296" itemid="{7C0E751A-8B5E-46B1-9883-FA59DF47C65B}" fieldid="Alt" updated="20111013T175535Z">
+    <en>Chris Walters</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Chris Walters/Walters_Chris_004_238x296" key="Walters_Chris_004_238x296" itemid="{14E38B72-D6E5-4180-80B2-9C8582B40506}" fieldid="Alt" updated="20111013T175534Z">
+    <en>Chris Walters</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Chris Walters/Walters_Chris_023_238x296" key="Walters_Chris_023_238x296" itemid="{2FF57BC2-904E-4A2B-B0C2-A8AC2F155601}" fieldid="Alt" updated="20111013T175534Z">
+    <en>Chris Walters</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Chris Walters/Walters_Chris_080_238x296" key="Walters_Chris_080_238x296" itemid="{D5A0F94B-F438-48A0-92D1-57347E2F2152}" fieldid="Alt" updated="20111013T175533Z">
+    <en>Chris Walters</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christina Berglund/Berglund-Christina-001-238x296" key="Berglund-Christina-001-238x296" itemid="{FF847926-259A-4ECC-89F6-6CFEF75AC0A2}" fieldid="Alt" updated="20210319T215948Z">
+    <en>Christina Berglund </en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christina Berglund/Berglund-Christina-002-238x296" key="Berglund-Christina-002-238x296" itemid="{210CDC0A-16F9-4B47-BF24-3A44483B55B3}" fieldid="Alt" updated="20210319T220032Z">
+    <en>Christina Berglund</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christine Hiler/Hiler_Christine_002_238x296" key="Hiler_Christine_002_238x296" itemid="{9CC38DA7-913C-4F3F-98B8-CF55C404893E}" fieldid="Alt" updated="20111013T153416Z">
+    <en>Christine Hiler</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christine Hiler/Hiler_Christine_003_238x296" key="Hiler_Christine_003_238x296" itemid="{318011F9-50DB-41AE-8A54-CE98993F3A2A}" fieldid="Alt" updated="20111013T153414Z">
+    <en>Christine Hiler</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christine Hiler/Hiler_Christine_014_238x296" key="Hiler_Christine_014_238x296" itemid="{AAF054EB-1FEB-4F23-BD14-AAEC3FD4372A}" fieldid="Alt" updated="20111013T153415Z">
+    <en>Christine Hiler</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Jensen/Jensen_Christopher_1_238x296" key="Jensen_Christopher_1_238x296" itemid="{97DF69E7-CDBC-4197-88D7-B55C46220138}" fieldid="Alt" updated="20150604T224308Z">
+    <en>Christopher Jensen</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Jensen/Jensen_Christopher_2_238x296" key="Jensen_Christopher_2_238x296" itemid="{4B7F62DB-7BAD-4630-BFEC-E4A6A9E71C48}" fieldid="Alt" updated="20150604T224325Z">
+    <en>Christopher Jensen</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Jensen/Jensen_Christopher_3_238x296" key="Jensen_Christopher_3_238x296" itemid="{E29EE4D5-D683-4331-A481-F8FEE862D447}" fieldid="Alt" updated="20150604T224353Z">
+    <en>Christopher Jensen</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Jensen/Jensen_Christopher_head_238x196" key="Jensen_Christopher_head_238x196" itemid="{A815EE88-0734-4DA7-A53B-7EDBF4F4C654}" fieldid="Alt" updated="20150609T224935Z">
+    <en>Christopher Jensen</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Karachale/Karachale_Christopher_101_238x296" key="Karachale_Christopher_101_238x296" itemid="{A5D21A6F-C798-4DBB-B8A5-93D587DD489D}" fieldid="Alt" updated="20120927T153945Z">
+    <en>Christopher Karachale</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Karachale/Karachale_Christopher_103_238x296" key="Karachale_Christopher_103_238x296" itemid="{AD868838-692D-49E4-8C97-02759135E1F5}" fieldid="Alt" updated="20120927T153944Z">
+    <en>Christopher Karachale</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Karachale/Karachale_Christopher_111_238x296" key="Karachale_Christopher_111_238x296" itemid="{36CD13F9-AA07-4660-B0F0-86481492BE26}" fieldid="Alt" updated="20120927T153946Z">
+    <en>Christopher Karachale</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Karachale/Karachale_Christopher_136_238x296" key="Karachale_Christopher_136_238x296" itemid="{FA34D0BE-1E33-498E-9090-8C60A2865D9F}" fieldid="Alt" updated="20120927T153942Z">
+    <en>Christopher Karachale</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Karachale/Karachale_Christopher_145_238x296" key="Karachale_Christopher_145_238x296" itemid="{40882351-A09D-4C52-94EA-991E3C3F06BB}" fieldid="Alt" updated="20120927T153944Z">
+    <en>Christopher Karachale</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Rheinheimer/Rheinheimer_Christopher_1" key="Rheinheimer_Christopher_1" itemid="{2BCE1E55-4ED0-414E-94FB-DB38D1FAA819}" fieldid="Alt" updated="20190522T221552Z">
+    <en>Christopher Rheinheimer</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Rheinheimer/Rheinheimer_Christopher_2" key="Rheinheimer_Christopher_2" itemid="{6E31748C-C8EE-4CF5-8A79-09EA9CD32E3C}" fieldid="Alt" updated="20190522T221553Z">
+    <en>Christopher Rheinheimer</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Sanchez/Sanchez_Christopher_049_238x296" key="Sanchez_Christopher_049_238x296" itemid="{CFBB3295-1B67-4DCF-A6FF-58547A403D76}" fieldid="Alt" updated="20120619T172432Z">
+    <en>Christopher Sanchez</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Sanchez/Sanchez_Christopher_056_238x296" key="Sanchez_Christopher_056_238x296" itemid="{DAD288C3-7CC5-435E-AFE6-444781A525A0}" fieldid="Alt" updated="20111013T173417Z">
+    <en>Christopher Sanchez</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Christopher Sanchez/Sanchez_Christopher_068_238x296" key="Sanchez_Christopher_068_238x296" itemid="{C8418409-EBC7-4D44-BA96-030C7097A5A2}" fieldid="Alt" updated="20111013T173418Z">
+    <en>Christopher Sanchez</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Cindy Laberge/Laberge-Cindy-2-238x296" key="Laberge-Cindy-2-238x296" itemid="{089F931E-F7D3-412C-A867-CDD30E6D733B}" fieldid="Alt" updated="20120619T172458Z">
+    <en>Cindy Laberge</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Cindy Laberge/Laberge-Cindy-238x296" key="Laberge-Cindy-238x296" itemid="{FB69DF77-ED59-4383-92B7-706081EC7F21}" fieldid="Alt" updated="20120619T172456Z">
+    <en>Cindy Laberge</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Claire Collins/Claire_Collins" key="Claire_Collins" itemid="{8A96590A-C3F5-4E59-BDD3-103EF8362392}" fieldid="Alt" updated="20200102T205911Z">
+    <en>Claire Hervey Collins</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Claire Collins/Claire-Collins-238x296" key="Claire-Collins-238x296" itemid="{3EFB38AC-CE8A-4D4C-954C-C6C61DC16E8E}" fieldid="Alt" updated="20200103T195714Z">
+    <en>Claire H. Collins</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Cole Benbow/Cole_Benbow_1" key="Cole_Benbow_1" itemid="{18FD3DC7-7CD5-4DA9-9ECF-F92E69C5D863}" fieldid="Alt" updated="20171013T201505Z">
+    <en>Cole Benbow</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Cole Benbow/Cole_Benbow_3" key="Cole_Benbow_3" itemid="{BD59096D-226C-4381-8400-E544493F9EEE}" fieldid="Alt" updated="20171013T201504Z">
+    <en>Cole Benbow</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Connie Liu/Liu_Connie_1" key="Liu_Connie_1" itemid="{E72833DC-D13F-4B67-BAF1-81DD733D859D}" fieldid="Alt" updated="20170810T155953Z">
+    <en>Connie Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Connie Liu/Liu_Connie_1_238x296" key="Liu_Connie_1_238x296" itemid="{708CF043-6263-41A5-BA0A-35F39892D45B}" fieldid="Alt" updated="20150616T220406Z">
+    <en>Connie Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Connie Liu/Liu_Connie_2" key="Liu_Connie_2" itemid="{4236A902-796F-48E8-A04A-3A42EC43774F}" fieldid="Alt" updated="20170810T160007Z">
+    <en>Connie Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Connie Liu/Liu_Connie_2_238x296" key="Liu_Connie_2_238x296" itemid="{01C7372C-C3B1-4352-9D46-91730E58A252}" fieldid="Alt" updated="20150616T220417Z">
+    <en>Connie Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Connie Liu/Liu_Connie_3" key="Liu_Connie_3" itemid="{14FED576-BDEE-4D7E-B44A-E97883EC336A}" fieldid="Alt" updated="20170810T160039Z">
+    <en>Connie Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Connie Liu/Liu_Connie_3_238x296" key="Liu_Connie_3_238x296" itemid="{68C114A0-822E-4986-8183-E71610B150E3}" fieldid="Alt" updated="20150616T220429Z">
+    <en>Connie Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dana Dean/dean-dana-01-238x296" key="dean-dana-01-238x296" itemid="{6E65C436-BA2A-42E9-8BCB-641E57824E75}" fieldid="Alt" updated="20220706T235128Z">
+    <en>Dana Dean</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Clinton/Clinton_Daniel_014_238x296" key="Clinton_Daniel_014_238x296" itemid="{4E18A6DC-ADA0-4BFA-AEB8-6404291AAD75}" fieldid="Alt" updated="20111013T151205Z">
+    <en>Daniel Clinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Clinton/Clinton_Daniel_023_238x296" key="Clinton_Daniel_023_238x296" itemid="{16C28D9A-B178-4532-9659-955FD67C38F3}" fieldid="Alt" updated="20111013T151203Z">
+    <en>Daniel Clinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Clinton/Clinton_Daniel_031_238x296" key="Clinton_Daniel_031_238x296" itemid="{54A93843-C24F-45FB-97AE-F6871063B96F}" fieldid="Alt" updated="20111013T151204Z">
+    <en>Daniel Clinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Dan1" key="Garcia_Dan1" itemid="{79030CF4-A519-440A-AECA-A05E12097446}" fieldid="Alt" updated="20180413T205844Z">
+    <en>Dan Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Dan2" key="Garcia_Dan2" itemid="{CE785D28-1DD0-4566-BC74-17CDE2F496CF}" fieldid="Alt" updated="20180413T205843Z">
+    <en>Dan Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_1" key="Garcia_Daniel_1" itemid="{B2AECE8A-67AE-4193-A1C2-E48418B254F0}" fieldid="Alt" updated="20180312T215428Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_101r_238x296" key="Garcia_Daniel_101r_238x296" itemid="{7C3837C0-099E-4A43-9912-AB4BCDE6AC5B}" fieldid="Alt" updated="20121108T235128Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_114r_238x296" key="Garcia_Daniel_114r_238x296" itemid="{0F9028B3-AA5A-4737-83B2-93B8CD4B31E2}" fieldid="Alt" updated="20121108T235127Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_115r_238x296" key="Garcia_Daniel_115r_238x296" itemid="{731A7F62-E1CE-4F62-BD82-BE390B5F64C6}" fieldid="Alt" updated="20121108T235128Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_132r_238x296" key="Garcia_Daniel_132r_238x296" itemid="{60A76FCE-B0EB-43C2-95C6-8BCA18441A6A}" fieldid="Alt" updated="20121108T235125Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_143r_238x296" key="Garcia_Daniel_143r_238x296" itemid="{5CE7AB26-FC65-4FBA-8B79-9DD3FB9D8313}" fieldid="Alt" updated="20121108T235126Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Garcia/Garcia_Daniel_153r_238x296" key="Garcia_Daniel_153r_238x296" itemid="{87835F63-D6B6-48E8-83C7-F0B28FE94492}" fieldid="Alt" updated="20121108T235126Z">
+    <en>Daniel Garcia</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Lentz/Lentz_Dan_238x296_1" key="Lentz_Dan_238x296_1" itemid="{E09F0771-302E-4970-B5EB-6BBA4E2C2221}" fieldid="Alt" updated="20160322T211845Z">
+    <en>Daniel Lentz</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Lentz/Lentz_Dan_238x296_2" key="Lentz_Dan_238x296_2" itemid="{0DC8BFE1-5995-49C2-9617-5D17508C99EC}" fieldid="Alt" updated="20160322T211855Z">
+    <en>Daniel Lentz</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daniel Lentz/Lentz_Dan_238x296_3" key="Lentz_Dan_238x296_3" itemid="{C2A10B88-0830-4F08-9827-256A6F32F75E}" fieldid="Alt" updated="20160322T211749Z">
+    <en>Daniel Lentz</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Danielle Hinton/Hinton_Danielle_021_238x296" key="Hinton_Danielle_021_238x296" itemid="{396EAAF9-17F9-48D6-A05D-9A27A07CBE8A}" fieldid="Alt" updated="20111013T153459Z">
+    <en>Danielle Hinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Danielle Hinton/Hinton_Danielle_028_238x296" key="Hinton_Danielle_028_238x296" itemid="{DD4FF96C-E226-45BA-BC6E-4894D65788AE}" fieldid="Alt" updated="20111201T221731Z">
+    <en>Danielle Hinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Danielle Hinton/Hinton_Danielle_045_238x296" key="Hinton_Danielle_045_238x296" itemid="{91E22DC3-E4CA-4221-91DE-332A86B7B540}" fieldid="Alt" updated="20111013T153458Z">
+    <en>Danielle Hinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Danielle Hinton/Hinton_Danielle_075_238x296" key="Hinton_Danielle_075_238x296" itemid="{C59933EA-ADC4-4E75-915D-CB8D4C588941}" fieldid="Alt" updated="20111013T153457Z">
+    <en>Danielle Hinton</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daren Shaver/Shaver_Daren_1" key="Shaver_Daren_1" itemid="{AE9EC0D7-0650-4984-8005-B40AEDFBCA09}" fieldid="Alt" updated="20190522T221409Z">
+    <en>Daren Shaver</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daren Shaver/Shaver_Daren_2" key="Shaver_Daren_2" itemid="{06138395-741C-4C21-AA63-F0B8A51C061C}" fieldid="Alt" updated="20190522T221410Z">
+    <en>Daren Shaver</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Daren Shaver/Shaver_Daren_3" key="Shaver_Daren_3" itemid="{162A8DCC-D779-4B7F-8CB7-AE02A661D327}" fieldid="Alt" updated="20190522T221411Z">
+    <en>Daren Shaver</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Darien Key/Key_Darien_1" key="Key_Darien_1" itemid="{E1D755C9-7106-4F1B-902F-5A65D89D3B36}" fieldid="Alt" updated="20200114T232940Z">
+    <en>Darien Key </en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Darien Key/Key_Darien_2" key="Key_Darien_2" itemid="{997802DB-695F-4B60-9629-67446C50D8AF}" fieldid="Alt" updated="20200114T233002Z">
+    <en>Darien Key </en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Darien Key/Key_Darien_3" key="Key_Darien_3" itemid="{769D3876-8250-4202-9E19-B2D21CF6657B}" fieldid="Alt" updated="20200114T233024Z">
+    <en>Darien Key</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Darlene Chiang/Chiang-Darlene_238x296" key="Chiang-Darlene_238x296" itemid="{4B361FFD-7DA7-4757-BE17-C89D3C2F536C}" fieldid="Alt" updated="20220503T224534Z">
+    <en>Darlene Chiang</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Alexander/Alexander_David_101_238x296" key="Alexander_David_101_238x296" itemid="{413762A3-5AEF-4083-BBBA-E61A5620965A}" fieldid="Alt" updated="20120719T232930Z">
+    <en>David Alexander</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Alexander/Alexander_David_112_238x296" key="Alexander_David_112_238x296" itemid="{E09CBB37-35E1-4964-A2A1-3B2935BE21D4}" fieldid="Alt" updated="20120719T232903Z">
+    <en>David Alexander</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Alexander/Alexander_David_117_238x296" key="Alexander_David_117_238x296" itemid="{8CC3B34F-12CE-4C39-8FA1-88CD1E553506}" fieldid="Alt" updated="20120719T232902Z">
+    <en>David Alexander</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Alexander/Alexander_David_123_238x296" key="Alexander_David_123_238x296" itemid="{ED3BB3E6-7690-427F-8F84-078421CF1A40}" fieldid="Alt" updated="20120719T232903Z">
+    <en>David Alexander</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Alexander/Alexander_David_157_238x296" key="Alexander_David_157_238x296" itemid="{2827A975-8992-44AB-BDB0-207ADA08B4ED}" fieldid="Alt" updated="20120719T232901Z">
+    <en>David Alexander</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Buoncristiani/Buoncristiani_David_1" key="Buoncristiani_David_1" itemid="{15F4B438-B2E0-40F7-B594-A8898DDE75E5}" fieldid="Alt" updated="20170224T000528Z">
+    <en>David Buoncristiani</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Buoncristiani/Buoncristiani_David_2" key="Buoncristiani_David_2" itemid="{7E441E96-D353-4697-A54E-07E12899DA9A}" fieldid="Alt" updated="20170224T000601Z">
+    <en>David Buoncristiani</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Casarrubias/David_Casarrubias_1" key="David_Casarrubias_1" itemid="{373E0F5D-4508-4485-94AE-42165C49490D}" fieldid="Alt" updated="20181126T222647Z">
+    <en>David Casarrubias</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Casarrubias/David_Casarrubias_2" key="David_Casarrubias_2" itemid="{19C297E6-14AB-4EFF-A7B9-3B113A8B7371}" fieldid="Alt" updated="20181126T222648Z">
+    <en>David Casarrubias</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Gehrig/Gehrig_David_111r_238x296" key="Gehrig_David_111r_238x296" itemid="{B0178FF7-E7C1-46EC-BC4C-3D20E1400E7A}" fieldid="Alt" updated="20111114T193623Z">
+    <en>David Gehrig</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Gehrig/Gehrig_David_113r_238x296" key="Gehrig_David_113r_238x296" itemid="{C6111DB4-9FAA-47F5-B4AC-6B2E1D49E42E}" fieldid="Alt" updated="20111114T193621Z">
+    <en>David Gehrig</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Gehrig/Gehrig_David_116r_238x296" key="Gehrig_David_116r_238x296" itemid="{FDCFC805-25EE-4C71-831C-89E6BB06669B}" fieldid="Alt" updated="20111114T193616Z">
+    <en>David Gehrig</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Gehrig/Gehrig_David_131r_238x296" key="Gehrig_David_131r_238x296" itemid="{05005C9B-1196-431E-B5C7-62D6E8CC1B5D}" fieldid="Alt" updated="20111114T193618Z">
+    <en>David Gehrig</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Gehrig/Gehrig_David_186r_238x296" key="Gehrig_David_186r_238x296" itemid="{3EEB6A9F-DBBA-4A35-9539-3DDB6F0D95C1}" fieldid="Alt" updated="20111114T193619Z">
+    <en>David Gehrig</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Gehrig/Gehrig_David_187r_238x296" key="Gehrig_David_187r_238x296" itemid="{87F69BAC-0D8E-4810-9C8B-D5784877AF2F}" fieldid="Alt" updated="20111114T193614Z">
+    <en>David Gehrig</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Dimensions" updated="20120113T225854Z">
+    <en>238 x 296</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Size" updated="20120113T225854Z">
+    <en>14511</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Height" updated="20120113T225854Z">
+    <en>296</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Extension" updated="20120113T225854Z">
+    <en>jpg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Alt" updated="20120113T225854Z">
+    <en>David Longinotti</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Blob" updated="20120113T225854Z">
+    <en>{42A9A844-6BCC-4E28-9DFD-C98A005BDDD2}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Mime Type" updated="20120113T225854Z">
+    <en>image/jpeg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-113_r_238x296" key="Longinotti_Dave-113_r_238x296" itemid="{81F6C1CA-F211-4DAD-B08F-F9D8B46523C3}" fieldid="Width" updated="20120113T225854Z">
+    <en>238</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-129r_238x296" key="Longinotti_Dave-129r_238x296" itemid="{FB57107D-D367-4F52-B700-C9EE66954A78}" fieldid="Alt" updated="20120118T194643Z">
+    <en>David Longinotti</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-157r_238x296" key="Longinotti_Dave-157r_238x296" itemid="{66E6D182-7BAF-4C39-B598-AA137562ED46}" fieldid="Alt" updated="20120118T194644Z">
+    <en>David Longinotti</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-160r_238x296" key="Longinotti_Dave-160r_238x296" itemid="{7266019B-171E-45F2-AB2C-58A1487D2CA1}" fieldid="Alt" updated="20120113T230540Z">
+    <en>David Longinotti</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Dimensions" updated="20120113T225853Z">
+    <en>238 x 296</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Size" updated="20120113T225853Z">
+    <en>16990</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Height" updated="20120113T225853Z">
+    <en>296</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Extension" updated="20120113T225853Z">
+    <en>jpg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Alt" updated="20120113T225853Z">
+    <en>David Longinotti</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Blob" updated="20120113T225853Z">
+    <en>{61329BBC-A626-4A2F-9D90-5A8D08A6C4CB}</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Mime Type" updated="20120113T225853Z">
+    <en>image/jpeg</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Longinotti/Longinotti_Dave-182r_238x296" key="Longinotti_Dave-182r_238x296" itemid="{E98F9206-34B1-4A54-9749-E05B53B89B9B}" fieldid="Width" updated="20120113T225853Z">
+    <en>238</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Miller/Miller_David_055_238x296_238x296" key="Miller_David_055_238x296_238x296" itemid="{FD58B289-C862-451C-9A9B-3961D723A4D1}" fieldid="Alt" updated="20111013T171229Z">
+    <en>David Miller</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Miller/Miller_David_066_238x296" key="Miller_David_066_238x296" itemid="{8041B1AC-3B97-45DB-98B9-FD5E277E2BA0}" fieldid="Alt" updated="20111013T171228Z">
+    <en>David Miller</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Partida/Partida_David_1" key="Partida_David_1" itemid="{F817D7FC-24B0-423D-8036-0ECEC4D7B0DC}" fieldid="Alt" updated="20190522T222150Z">
+    <en>David Partida</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/David Partida/Partida_David-_3" key="Partida_David-_3" itemid="{39937ECF-2928-4763-A440-5B4504B8BE61}" fieldid="Alt" updated="20190522T222151Z">
+    <en>David Partida</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Davina Pujari/Pujari_Davina_1_238x296" key="Pujari_Davina_1_238x296" itemid="{4E6AB286-9CBD-4D52-B272-5E1B8584D451}" fieldid="Alt" updated="20150602T201518Z">
+    <en>Pujari Davina</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Davina Pujari/Pujari_Davina_3_238x296" key="Pujari_Davina_3_238x296" itemid="{801DA4DB-961D-45EA-A3B6-BE9ED8D59B17}" fieldid="Alt" updated="20150602T201403Z">
+    <en>Pujari Davina</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Davina Pujari/Pujari_Davina_4_238x296" key="Pujari_Davina_4_238x296" itemid="{CDAFD75F-2830-40EC-9DA2-73CADE9B2CE3}" fieldid="Alt" updated="20150602T201409Z">
+    <en>Pujari Davina</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Davina Pujari/Pujari_Davina_head_238x196" key="Pujari_Davina_head_238x196" itemid="{3E22FCB2-AAE2-4457-910D-58E30FAFB6EE}" fieldid="Alt" updated="20150602T201418Z">
+    <en>Davina Pujari</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dayna Louie/Dayna-Louie-1" key="Dayna-Louie-1" itemid="{AA4E1A58-D26E-4361-AC46-2A731AD1A369}" fieldid="Alt" updated="20191101T003622Z">
+    <en>Dayna Louie </en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Deidre Schonfeldt/Schonfeldt_Deidre_100r_238x296" key="Schonfeldt_Deidre_100r_238x296" itemid="{8D284CB2-F1FC-4BD9-89AA-6393A4115690}" fieldid="Alt" updated="20111114T200347Z">
+    <en>Deidre Schonfeldt</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Deidre Schonfeldt/Schonfeldt_Deidre_132r_238x296" key="Schonfeldt_Deidre_132r_238x296" itemid="{2E19C6A4-72B3-4F1C-B63F-D84228522E31}" fieldid="Alt" updated="20111114T200344Z">
+    <en>Deidre Schonfeldt</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Deidre Schonfeldt/Schonfeldt_Deidre_148r_238x296" key="Schonfeldt_Deidre_148r_238x296" itemid="{4BCC5989-8156-441D-94AD-354FA2A38D38}" fieldid="Alt" updated="20111114T200342Z">
+    <en>Deidre Schonfeldt</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Deidre Schonfeldt/Schonfeldt_Deidre_164r_238x296" key="Schonfeldt_Deidre_164r_238x296" itemid="{9521835B-18CF-402C-AFB4-C7D29BBDBD61}" fieldid="Alt" updated="20111114T200345Z">
+    <en>Deidre Schonfeldt</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Deidre Schonfeldt/Schonfeldt_Deidre_186r_238x296" key="Schonfeldt_Deidre_186r_238x296" itemid="{5F5C604F-DA07-408B-992E-A28EF626CCCC}" fieldid="Alt" updated="20111114T200341Z">
+    <en>Deidre Schonfeldt</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Deidre Schonfeldt/Schonfeldt_Deidre_187r_238x296" key="Schonfeldt_Deidre_187r_238x296" itemid="{18A8DDFF-CB92-4506-9979-075451C8D0EA}" fieldid="Alt" updated="20111114T200349Z">
+    <en>Deidre Schonfeldt</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dena Duthoy-Null/Duthoy-Null_Dena_002_238x296" key="Duthoy-Null_Dena_002_238x296" itemid="{A09DDDCF-2C49-47BD-BB19-5121D2D1F96C}" fieldid="Alt" updated="20111013T151823Z">
+    <en>Dena Duthoy-Null</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dena Duthoy-Null/Duthoy-Null_Dena_011_238x296" key="Duthoy-Null_Dena_011_238x296" itemid="{97B3EEB6-956C-4F82-932C-8CDE186C789D}" fieldid="Alt" updated="20111013T151821Z">
+    <en>Dena Duthoy-Null</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dena Duthoy-Null/Duthoy-Null_Dena_016_238x296" key="Duthoy-Null_Dena_016_238x296" itemid="{776A2CF1-A90E-49FC-BA6C-7B96D5B178A8}" fieldid="Alt" updated="20111013T151822Z">
+    <en>Dena Duthoy-Null</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dennis McQuaid/McQuaid_Dennis_025_238x296" key="McQuaid_Dennis_025_238x296" itemid="{3EC36288-6409-4321-A4CB-F5CB6838B123}" fieldid="Alt" updated="20111013T170935Z">
+    <en>Dennis McQuaid</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Derek Ridgway/Ridgway_Derek_170_238x296" key="Ridgway_Derek_170_238x296" itemid="{6F884582-AB87-49A6-8B71-CE5481C61D21}" fieldid="Alt" updated="20120217T003748Z">
+    <en>Derek Ridgway</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Derek Ridgway/Ridgway_Derek_206_238x296" key="Ridgway_Derek_206_238x296" itemid="{20D0A269-1A6A-45FB-9CAE-70D6FC4A9389}" fieldid="Alt" updated="20120217T003745Z">
+    <en>Derek Ridgway</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Derek Ridgway/Ridgway_Derek_229_238x296" key="Ridgway_Derek_229_238x296" itemid="{F45754BB-0C6B-4D4A-987E-8CAFE00063C5}" fieldid="Alt" updated="20120217T003747Z">
+    <en>Derek Ridgway</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Derek Ridgway/Ridgway_Derek_274_238x296" key="Ridgway_Derek_274_238x296" itemid="{DFB23220-17F4-4643-AEA4-14F876A324BC}" fieldid="Alt" updated="20120217T003744Z">
+    <en>Derek Ridgway</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Derek Ridgway/Ridgway_Derek_276_238x296" key="Ridgway_Derek_276_238x296" itemid="{55911B69-6168-45A3-916A-D8BD5901DCF9}" fieldid="Alt" updated="20120217T173518Z">
+    <en>Derek Ridgway</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_004_238x296" key="OMalley_Diane_004_238x296" itemid="{7ED4BADF-4F14-442E-95D2-35A6B88E119A}" fieldid="Alt" updated="20151009T191147Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_022_238x296" key="OMalley_Diane_022_238x296" itemid="{780FE296-5379-4181-A2B3-F325FC592DC3}" fieldid="Alt" updated="20111013T172143Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_052_238x296" key="OMalley_Diane_052_238x296" itemid="{F630D471-CD50-461C-A7EB-D323F59EB1E1}" fieldid="Alt" updated="20111013T172144Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_2_238x296" key="OMalley_Diane_2_238x296" itemid="{3F139BAD-3BA8-4503-AB78-A1B088E44D58}" fieldid="Alt" updated="20151009T191207Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_3_238x296" key="OMalley_Diane_3_238x296" itemid="{D9C7DF40-840D-48A6-AD0C-C30D0A34FB3A}" fieldid="Alt" updated="20151009T191215Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_4_238x296" key="OMalley_Diane_4_238x296" itemid="{39564698-CC68-4279-89BC-AF507F990060}" fieldid="Alt" updated="20151009T191226Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Diane OMalley/OMalley_Diane_5_238x296" key="OMalley_Diane_5_238x296" itemid="{EBE9ACE4-8238-4A54-8AAA-016E3F1E43E6}" fieldid="Alt" updated="20151009T191235Z">
+    <en>Diane O'Malley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Donnelly Gillen/Donnelly_Gillen_1" key="Donnelly_Gillen_1" itemid="{75723616-3E48-4272-8A6B-B68F3AA5929F}" fieldid="Alt" updated="20171013T201726Z">
+    <en>Donnelly Gillen</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Donnelly Gillen/Donnelly_Gillen_2" key="Donnelly_Gillen_2" itemid="{014DDD7E-8738-45BE-95A5-14D6D3A278B9}" fieldid="Alt" updated="20171013T201725Z">
+    <en>Donnelly Gillen</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dorothy Liu/Liu_Dorothy_002_238x296" key="Liu_Dorothy_002_238x296" itemid="{1A08D4D2-322C-4DE0-BFBD-E04C7C4B4D65}" fieldid="Alt" updated="20111013T155259Z">
+    <en>Dorothy Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dorothy Liu/Liu_Dorothy_032_238x296" key="Liu_Dorothy_032_238x296" itemid="{C040A50C-04F4-4B89-8ED2-748FBC1BC92F}" fieldid="Alt" updated="20111013T155257Z">
+    <en>Dorothy Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dorothy Liu/Liu_Dorothy_055_238x296" key="Liu_Dorothy_055_238x296" itemid="{CDF5F358-E805-4705-9E7C-D83D8A790222}" fieldid="Alt" updated="20111013T155258Z">
+    <en>Dorothy Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Dorothy Liu/Liu_Dorothy_071_238x296" key="Liu_Dorothy_071_238x296" itemid="{FE5388D0-EC49-416C-A94E-0FDEB71FEA36}" fieldid="Alt" updated="20111013T155256Z">
+    <en>Dorothy Liu</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Doug Armstrong/Armstrong_Doug" key="Armstrong_Doug" itemid="{300796BB-AFB9-4319-AE4D-6AE513D75B45}" fieldid="Alt" updated="20160419T165301Z">
+    <en>Douglas Armstrong</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Douglas Bosco/Bosco_Douglas_010_238x296" key="Bosco_Douglas_010_238x296" itemid="{9E4E3162-55B2-4966-AEE7-FC4E1C8AFF5A}" fieldid="Alt" updated="20111013T150225Z">
+    <en>Douglas Bosco</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Douglas Bosco/Bosco_Douglas_037_238x296" key="Bosco_Douglas_037_238x296" itemid="{B485B94E-7CAB-4E32-AE5D-0B9E029A8E5B}" fieldid="Alt" updated="20111013T150223Z">
+    <en>Douglas Bosco</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Douglas Bosco/Bosco_Douglas_061_238x296" key="Bosco_Douglas_061_238x296" itemid="{D60818D1-3981-414B-AFAE-7C0CF7105481}" fieldid="Alt" updated="20111013T150224Z">
+    <en>Douglas Bosco</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Edward Bernard/Bernard_Edward_013_238x296" key="Bernard_Edward_013_238x296" itemid="{D24879FB-81D7-4561-BF9F-3BFB19EDA853}" fieldid="Alt" updated="20111013T144928Z">
+    <en>Edward Bernard</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Edward Bernard/Bernard_Edward_053_238x296" key="Bernard_Edward_053_238x296" itemid="{182D315A-7201-4B50-8C8F-AFFAEE11D7CF}" fieldid="Alt" updated="20111013T144926Z">
+    <en>Edward Bernard</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Edward Bernard/Bernard_Edward_078_238x296" key="Bernard_Edward_078_238x296" itemid="{E2DE787C-221A-4D51-9927-49CD841C8398}" fieldid="Alt" updated="20111013T144927Z">
+    <en>Edward Bernard</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Edward Davis/Davis_Edward_039_238x296" key="Davis_Edward_039_238x296" itemid="{E63B1E6F-EC25-463B-8ECD-AF801953FE43}" fieldid="Alt" updated="20111013T151601Z">
+    <en>Edward Davis</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elan Emanuel/Emanuel_Elan_003_238x296" key="Emanuel_Elan_003_238x296" itemid="{F5CD65EA-C7AA-480A-86AC-A3064A27DE28}" fieldid="Alt" updated="20111013T152012Z">
+    <en>Elan Emanuel</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elan Emanuel/Emanuel_Elan_010_238x296" key="Emanuel_Elan_010_238x296" itemid="{F8688E0B-EDF1-49A0-9582-C4E5F8AF989F}" fieldid="Alt" updated="20111013T152011Z">
+    <en>Elan Emanuel</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elan Emanuel/Emanuel_Elan_024_238x296" key="Emanuel_Elan_024_238x296" itemid="{84B154F7-F6BD-4474-B434-73AA69984F3D}" fieldid="Alt" updated="20111013T152011Z">
+    <en>Elan Emanuel</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elan Emanuel/Emanuel_Elan_031_238x296" key="Emanuel_Elan_031_238x296" itemid="{C45B404F-9E78-42B7-BE72-BCFBD3772001}" fieldid="Alt" updated="20111013T152008Z">
+    <en>Elan Emanuel</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elan Emanuel/Emanuel_Elan_045_238x296" key="Emanuel_Elan_045_238x296" itemid="{9D29F36C-4965-4288-B8E7-3A27CA97B2BD}" fieldid="Alt" updated="20111013T152010Z">
+    <en>Elan Emanuel</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elan Emanuel/Emanuel_Elan_046_238x296" key="Emanuel_Elan_046_238x296" itemid="{3BAD4102-BB5C-4944-B282-7803B7EADE32}" fieldid="Alt" updated="20111013T152009Z">
+    <en>Elan Emanuel</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elisha Yang/Yang_Elisha_1" key="Yang_Elisha_1" itemid="{C07658A5-F461-4E16-B32A-20400A609CBF}" fieldid="Alt" updated="20170525T185226Z">
+    <en>Elisha Yang</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elisha Yang/Yang_Elisha_2" key="Yang_Elisha_2" itemid="{D82B69DA-284D-48FE-8ECD-41FA90BFF78B}" fieldid="Alt" updated="20170525T185228Z">
+    <en>Elisha Yang</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Elisha Yang/Yang_Elisha_3" key="Yang_Elisha_3" itemid="{51C1607E-00E2-4C81-A3A0-30E19E09EF09}" fieldid="Alt" updated="20170525T185230Z">
+    <en>Elisha Yang</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Ellen Demson/Demson_Ellen_1" key="Demson_Ellen_1" itemid="{EE16FE7D-C163-42D4-8788-1BEA40CC9154}" fieldid="Alt" updated="20200129T012740Z">
+    <en>Ellen Demson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Ellen Demson/Demson_Ellen_2" key="Demson_Ellen_2" itemid="{931AE123-763F-42CE-A32D-E47E304CEEBC}" fieldid="Alt" updated="20200129T012054Z">
+    <en>Ellen Demson</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Ellen Demson/Demson_Ellen_3" key="Demson_Ellen_3" itemid="{035B6338-A014-4D79-A64D-30DC32E337BF}" fieldid="Alt" updated="20200129T012133Z">
+    <en>Ellen Demson </en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Ellis Raskin/Raskin_Ellis_1" key="Raskin_Ellis_1" itemid="{B53142CF-BB1A-499E-9B0E-0DEF080E8273}" fieldid="Alt" updated="20200129T012722Z">
+    <en>Ellis Raskin</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Ellis Raskin/Raskin_Ellis_2" key="Raskin_Ellis_2" itemid="{28A64ADA-D6D8-4BDE-95CC-7420E82F2320}" fieldid="Alt" updated="20200129T012802Z">
+    <en>Ellis Raskin</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Ellis Raskin/Raskin_Ellis_3" key="Raskin_Ellis_3" itemid="{661460F6-54B6-4609-8448-0CA260F1A14F}" fieldid="Alt" updated="20200129T012818Z">
+    <en>Ellis Raskin</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Charley/Charley_Emily_024_238x296" key="Charley_Emily_024_238x296" itemid="{26BECD24-0269-4755-9600-70142FCA46A4}" fieldid="Alt" updated="20111013T150820Z">
+    <en>Emily Charley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Charley/Charley_Emily_027_238x296" key="Charley_Emily_027_238x296" itemid="{CAE9BD1F-9DCD-4219-9344-980C15290810}" fieldid="Alt" updated="20111013T150818Z">
+    <en>Emily Charley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Charley/Charley_Emily_030_238x296" key="Charley_Emily_030_238x296" itemid="{D78BFAB3-AB36-45DA-9F24-34A4001DFE41}" fieldid="Alt" updated="20111013T150819Z">
+    <en>Emily Charley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Charley/Emily_Charley1" key="Emily_Charley1" itemid="{4B02A067-B180-4107-A89F-96094967728C}" fieldid="Alt" updated="20180413T210800Z">
+    <en>Emily Charley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Charley/Emily_Charley2" key="Emily_Charley2" itemid="{FFA58209-1215-49D4-8950-8501AFCBF9B6}" fieldid="Alt" updated="20180413T210759Z">
+    <en>Emily Charley</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Leahy/Leahy_Emily_1" key="Leahy_Emily_1" itemid="{80C6E201-6F59-462D-9AC9-345D0A981CE6}" fieldid="Alt" updated="20160505T171031Z">
+    <en>Emily leahy</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Leahy/Leahy_Emily_2" key="Leahy_Emily_2" itemid="{AABBE24E-B72E-41E3-9F96-4F1A11B59817}" fieldid="Alt" updated="20160505T171033Z">
+    <en>Emily leahy</en>
+  </phrase>
+  <phrase path="/sitecore/media library/Images/Employee Images/Attorneys/Emily Leahy/Leahy_Emily_3" key="Leahy_Emily_3" itemid="{C5567384-D117-42A4-8CDD-38D6C096B9C5}" fieldid="Alt" updated="20160505T171038Z">
+    <en>Emily Leahy</en>
+  </phrase>
+</sitecore>

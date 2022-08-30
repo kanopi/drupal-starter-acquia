@@ -1,0 +1,199 @@
+{
+    "name": "kanopi/drupal-acquia",
+    "description": "Project template for Drupal projects with composer and docksal",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Sean Dietrich <sean@kanopistudios.com>",
+            "role": "Developer / Architect"
+        },
+        {
+            "name": "Paul Sheldrake <paul@kanopi.com>",
+            "role": "Trouble Maker"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "acquia/memcache-settings": "^1.1",
+        "composer/installers": "^1.10",
+        "cweagans/composer-patches": "^1.6",
+        "dmore/chrome-mink-driver": "^2.7",
+        "drupal/a11yproject_checklist": "*",
+        "drupal/admin_toolbar": "^3.0",
+        "drupal/classy_paragraphs": "^1.0@RC",
+        "drupal/coffee": "^1.2",
+        "drupal/colorbox": "^1.10",
+        "drupal/colorbutton": "^1.3",
+        "drupal/components": "^2.4",
+        "drupal/config_filter": "^2.2",
+        "drupal/config_split": "^2",
+        "drupal/core-composer-scaffold": "^9.4",
+        "drupal/core-recommended": "^9.3.0",
+        "drupal/core-vendor-hardening": "^9.3.0",
+        "drupal/ctools": "^3.7",
+        "drupal/editor_advanced_link": "^2.0",
+        "drupal/emulsify_twig": "^2.1",
+        "drupal/entity_usage": "^2.0@beta",
+        "drupal/field_group": "^3.1",
+        "drupal/key": "*",
+        "drupal/launch_checklist": "^1.1",
+        "drupal/linkit": "^5.0-beta10",
+        "drupal/memcache": "^2.3",
+        "drupal/menu_block": "^1.8",
+        "drupal/menu_item_extras": "^2.17",
+        "drupal/menu_link_attributes": "^1.2",
+        "drupal/metatag": "^1.15",
+        "drupal/migrate_plus": "^6.0",
+        "drupal/migrate_source_csv": "^3.5",
+        "drupal/migrate_tools": "^6.0",
+        "drupal/paragraphs": "^1.14",
+        "drupal/pathauto": "^1.8",
+        "drupal/resource_hints": "1.x-dev",
+        "drupal/responsive_tables_filter": "^1.13",
+        "drupal/schema_metatag": "^2.2",
+        "drupal/seo_checklist": "4.x-dev@dev",
+        "drupal/seo_starter": "1.x-dev",
+        "drupal/simple_sitemap": "^4",
+        "drupal/sitemap": "^2.0",
+        "drupal/tb_megamenu": "^2.0@alpha",
+        "drupal/tour_enhancements": "^1",
+        "drupal/tour_ui": "^1.0@beta",
+        "drupal/twig_tweak": "^3.1",
+        "drupal/twig_vardumper": "^3.0",
+        "drupal/views_bulk_operations": "^4.0",
+        "drupal/viewsreference": "^1.8",
+        "drupal/webp": "^1.0@beta",
+        "drupal/yoast_seo": "^1.7",
+        "drupal/youtube": "^1.2",
+        "drush/drush": "^10",
+        "joachim-n/composer-manifest": "^1.0",
+        "oomphinc/composer-installers-extender": "2.0.0",
+        "rvtraveller/qs-composer-installer": "^1.1",
+        "webflo/drupal-finder": "^1.0.0",
+        "webmozart/path-util": "^2.3"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^9.3.0",
+        "drupal/devel": "^4.1",
+        "drupal/upgrade_status": "^3.10",
+        "mglaman/phpstan-drupal": "^0.12.13",
+        "palantirnet/drupal-rector": "^0.11.3",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^0.12.6"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php"
+        ]
+    },
+    "scripts": {
+        "lint-php": "find docroot/modules/custom docroot/themes/custom -not -path '*/node_modules/*' -name '*.php' -exec php -l {} \\\\;",
+        "code-sniff-modules": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/modules/custom || true",
+        "code-sniff-themes": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/themes/custom || true",
+        "code-sniff": [
+            "@code-sniff-modules",
+            "@code-sniff-themes"
+        ],
+        "code-fix-modules": "vendor/bin/phpcbf --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/modules/custom || true",
+        "code-fix-themes": "vendor/bin/phpcbf --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/themes/custom || true",
+        "code-fix": [
+            "@code-fix-modules",
+            "@code-fix-themes",
+            "@rector-fix",
+            "@lint-php"
+        ],
+        "phpstan": "vendor/bin/phpstan analyse docroot/modules/custom docroot/themes/custom --level max || true",
+        "rector-modules": "vendor/bin/rector process docroot/modules/custom/ --dry-run || true",
+        "rector-themes": "vendor/bin/rector process docroot/themes/custom/ --dry-run || true",
+        "rector-fix-modules": "vendor/bin/rector process docroot/modules/custom/ || true",
+        "rector-fix-themes": "vendor/bin/rector process docroot/themes/custom/ || true",
+        "rector-fix": [
+            "@rector-fix-modules",
+            "@rector-fix-themes"
+        ],
+        "code-check": [
+            "@phpstan",
+            "@rector-modules",
+            "@rector-themes",
+            "@code-sniff"
+        ],
+        "build-assets": [
+            "composer install --optimize-autoloader --no-dev"
+        ],
+        "post-autoload-dump": [
+            "[ ! -f rector.php ] && cp vendor/palantirnet/drupal-rector/rector.php . || true",
+            "vendor/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer || true"
+        ]
+    },
+    "extra": {
+        "enable-patching": true,
+        "installer-types": [
+            "drupal-library",
+            "npm-asset",
+            "bower-asset",
+            "quicksilver-script"
+        ],
+        "installer-paths": {
+            "docroot/core": ["type:drupal-core"],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "docroot/modules/contrib/{$name}": ["type:drupal-module"],
+            "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"],
+            "docroot/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+        },
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "./docroot"
+            },
+            "file-mapping": {
+                "[web-root]/.htaccess": false,
+                "[web-root]/robots.txt": false,
+                "[web-root]/.gitignore": false,
+                "[web-root]/sites/development.services.yml": false
+            }
+        },
+        "patches": {
+
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "phpstan/extension-installer": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-vendor-hardening": true,
+            "joachim-n/composer-manifest": true,
+            "oomphinc/composer-installers-extender": true,
+            "rvtraveller/qs-composer-installer": true
+        }
+    }
+}
