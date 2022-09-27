@@ -42,3 +42,16 @@ $settings['trusted_host_patterns'] = array(
   '^.+\.tugboat\.qa$',
   '^.+\.tugboatqa\.com$',
 );
+
+$config['search_api.server.acquia_search_server'] = [
+  'backend_config' => [
+    'connector' => 'standard',
+    'connector_config' => [
+      'scheme' => 'http',
+      'host' => 'solr',
+      'path' => '',
+      'core' => 'tugboat',
+      'port' => '8983',
+    ],
+  ],
+];
