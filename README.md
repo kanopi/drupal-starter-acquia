@@ -171,3 +171,27 @@ Code flow:
    * We are using [Acquia Cloud Hooks](https://docs.acquia.com/cloud-platform/develop/api/cloud-hooks/) to do a Drupal config imports and database updates on deploys in Acquia.
    * Note: If you update the major version of Drush you need to double check that version is available in Acquia.  I.E.  `drush11` or `drush10`. Currently, it's set to Drush 10.
 5. To deploy to production use the Acquia UI to move the code to the different environments
+
+## Solr
+
+We are using Acquia Solr Search which defaults to Solr 7.
+
+We have setup Solr on Docksal and Tugboat with environment specific config overrides in `settings.php`
+
+```
+$config['search_api.server.acquia_search_server'] = [
+  'backend_config' => [
+    'connector' => 'standard',
+    'connector_config' => [
+      'scheme' => 'http',
+      'host' => 'solr',
+      'path' => '',
+      'core' => 'search_api_solr_8.x-2.0',
+      'port' => '8983',
+    ],
+  ],
+];
+```
+
+The Search API UI for editing the doesn't show the changes right away.  To validate the overrides run the following command `drush cget search_api.server.acquia_search_server --include-overridden`
+

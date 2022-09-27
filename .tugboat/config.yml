@@ -124,3 +124,13 @@ services:
         - mysql -e "SET GLOBAL max_allowed_packet=536870912;"
 
 
+  solr:
+    image: tugboatqa/solr:7
+    checkout: true
+    commands:
+      init:
+        - su -s /bin/sh -c "solr create_core -c tugboat -force" solr
+
+      build:
+      # - cd "${SOLR_HOME}/tugboat" && rm -rf conf
+      # - cd "${SOLR_HOME}/[CORE]" && ln -snf "${TUGBOAT_ROOT}/path/to/solr/config" conf

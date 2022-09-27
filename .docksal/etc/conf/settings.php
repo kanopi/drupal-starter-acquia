@@ -38,3 +38,17 @@ $settings['memcache']['servers'] = ['memcached:11211' => 'default'];
 $settings['memcache']['bins'] = ['default' => 'default'];
 $settings['memcache']['key_prefix'] = '';
 $settings['cache']['default'] = 'cache.backend.memcache';
+
+
+$config['search_api.server.acquia_search_server'] = [
+  'backend_config' => [
+    'connector' => 'standard',
+    'connector_config' => [
+      'scheme' => 'http',
+      'host' => 'solr',
+      'path' => '',
+      'core' => 'search_api_solr_8.x-2.0',
+      'port' => '8983',
+    ],
+  ],
+];
