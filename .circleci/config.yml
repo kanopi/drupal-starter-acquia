@@ -217,3 +217,4 @@ workflows:
 #          site-id: *ACQUIA_SITE_ID
 #          update-method: composer
 #          context: kanopi-code
+#          php-version: *CIMG_PHP_TAG
