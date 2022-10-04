@@ -125,12 +125,12 @@ services:
 
 
   solr:
-    image: tugboatqa/solr:7
+    image: tugboatqa/solr:8
     checkout: true
     commands:
       init:
-        - su -s /bin/sh -c "solr create_core -c tugboat -force" solr
+        - su -s /bin/sh -c "solr create_core -c drupal_solr -force" solr
 
       build:
-      # - cd "${SOLR_HOME}/tugboat" && rm -rf conf
-      # - cd "${SOLR_HOME}/[CORE]" && ln -snf "${TUGBOAT_ROOT}/path/to/solr/config" conf
+        - cd "${SOLR_HOME}/drupal_solr" && rm -rf conf
+        - cd "${SOLR_HOME}/drupal_solr" && ln -snf "${TUGBOAT_ROOT}/.tugboat/config/solr" conf

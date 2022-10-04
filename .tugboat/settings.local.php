@@ -50,7 +50,7 @@ $config['search_api.server.acquia_search_server'] = [
       'scheme' => 'http',
       'host' => 'solr',
       'path' => '',
-      'core' => 'tugboat',
+      'core' => 'drupal_solr',
       'port' => '8983',
     ],
   ],
