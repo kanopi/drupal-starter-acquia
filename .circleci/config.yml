@@ -3,7 +3,7 @@ THEME_NAME: &THEME_NAME "THEME"
 THEME_PATH: &THEME_PATH "docroot/themes/custom/THEME"
 ACQUIA_REPO: &ACQUIA_REPO "xxxyyy@svn-23450.prod.hosting.acquia.com:xxxxx.git"
 ACQUIA_SITE_ID: &ACQUIA_SITE_ID "xxxyyy"
-CIMG_NODE: &CIMG_NODE "cimg/node:lts-browsers" # Currently 16.  Matches theme .NVMRC
+CIMG_NODE: &CIMG_NODE "cimg/node:16.14" # Currently 16.  Matches theme .NVMRC
 CIMG_PHP: &CIMG_PHP "cimg/php:8.0" # This is the version of PHP set in acquia.
 CIMG_PHP_TAG: &CIMG_PHP_TAG "8.0" # This is the version of PHP set in acquia.
 version: 2.1
@@ -88,7 +88,31 @@ jobs:
             - docroot
             - vendor
 
+  push_storybook:
+      docker:
+        - image: *CIMG_NODE
+      working_directory: ~/project
+      steps:
+        - checkout
+        - ci-tools/copy-ssh-key
+        - restore_cache:
+            keys:
+              - theme-{{ checksum "web/themes/custom/site_theme/package-lock.json" }}
+              - theme-
+        - run:
+            name: Install Storybook
+            path: *THEME_PATH
+            command: npm install
 
+        - save_cache:
+            key: theme-{{ checksum "web/themes/custom/site_theme/package-lock.json" }}
+            paths:
+              - web/themes/custom/site_theme/node_modules
+
+        - run:
+            name: Run Storybook Deploy
+            path: web/themes/custom/site_theme
+            command: npm run deploy-storybook
 
 #      - slack/notify:
 #          message: "Finished multidev build ${MULTIDEV_SITE_URL}\n
@@ -146,6 +170,14 @@ workflows:
             branches:
               ignore:
                 - main
+
+  push_storybook:
+    jobs:
+      - push_storybook:
+          context: kanopi-code
+          filters:
+            branches:
+              only: main
 
   deploy:
     jobs:
