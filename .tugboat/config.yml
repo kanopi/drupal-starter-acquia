@@ -125,7 +125,7 @@ services:
 
 
   solr:
-    image: tugboatqa/solr:8
+    image: tugboatqa/solr:8.6
     checkout: true
     commands:
       init:
