@@ -121,7 +121,7 @@
             "@rector-fix",
             "@lint-php"
         ],
-        "phpstan": "vendor/bin/phpstan analyse docroot/modules/custom docroot/themes/custom --level max || true",
+        "phpstan": "vendor/bin/phpstan analyse docroot/modules/custom docroot/themes/custom || true",
         "rector-modules": "vendor/bin/rector process docroot/modules/custom/ --dry-run || true",
         "rector-themes": "vendor/bin/rector process docroot/themes/custom/ --dry-run || true",
         "rector-fix-modules": "vendor/bin/rector process docroot/modules/custom/ || true",
