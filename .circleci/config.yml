@@ -224,10 +224,10 @@ workflows:
           post-push:
             - slack/notify:
                 message: "Finished push to Acquia\n
-                Acquia Dashboard: https://cloud.acquia.com/a/applications/13dc7b3f-86da-4185-acb1-d0be1d952a1f"
+                Acquia Dashboard: https://cloud.acquia.com/a/applications/xxx"
                 include_job_number_field: false
                 include_project_field: false
-                webhook: "https://hooks.slack.com/services/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"
+                webhook: "https://hooks.slack.com/services/T02BTKQ5F/B03PERNJBQV/xxx"
           filters:
             branches:
               only:
