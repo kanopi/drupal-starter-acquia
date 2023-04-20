@@ -1,5 +1,7 @@
 parameters:
-  level: max
+  # Prevents classes extending Drupal core from having to take unnecessary
+  # steps to workaround current phpdoc standards in Drupal core.
+  level: 5
   customRulesetUsed: true
   reportUnmatchedIgnoredErrors: false
   excludePaths:
