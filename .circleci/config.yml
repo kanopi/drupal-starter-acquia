@@ -6,6 +6,9 @@ ACQUIA_SITE_ID: &ACQUIA_SITE_ID "xxxyyy"
 CIMG_NODE: &CIMG_NODE "cimg/node:16.14" # Currently 16.  Matches theme .NVMRC
 CIMG_PHP: &CIMG_PHP "cimg/php:8.0" # This is the version of PHP set in acquia.
 CIMG_PHP_TAG: &CIMG_PHP_TAG "8.0" # This is the version of PHP set in acquia.
+CYPRESS_NODE_VERSION: &CYPRESS_NODE_VERSION "18.16.1" # Matches NVMRC file.
+CYPRESS_CIMG_PHP: &CYPRESS_CIMG_PHP "cimg/php:8.1-browsers"
+
 version: 2.1
 
 orbs:
@@ -87,7 +90,85 @@ jobs:
           paths:
             - docroot
             - vendor
+  cypress:
+    docker:
+      - image: *CYPRESS_CIMG_PHP
+        auth:
+          username: $DOCKERHUB_USER
+          password: $DOCKERHUB_PASS
+    environment:
+      TERMINUS_SITE: *TERMINUS_SITE
+      PANTHEON_UUID: *PANTHEON_UUID
+    resource_class: large
+    steps:
+      - ci-tools/set-variables
+      - checkout
+      - restore_cache:
+          keys:
+            - drupal-{{ checksum "composer.lock" }}
 
+      - run:
+          name: run Composer install for Shrubs
+          command: |
+            composer install
+
+      - save_cache:
+          key: drupal-{{ checksum "composer.lock" }}
+          paths:
+            - vendor
+
+      - ci-tools/copy-ssh-key
+      - node/install:
+          node-version: *CYPRESS_NODE_VERSION
+      - ci-tools/install-terminus
+      - run:
+          name: Authorize terminus
+          command: terminus -n auth:login --machine-token="$TERMINUS_TOKEN"
+      - run:
+          name: Prime Cache
+          command: curl -I "${SITE_URL}"
+
+      - run:
+          name: Set Variables
+          command: |
+            (
+                echo "export CYPRESS_BASE_URL='${SITE_URL}'"
+                echo "export PR_ENVIRONMENT='${TERMINUS_SITE}.pr-${CIRCLE_PULL_REQUEST##*/}'"
+                echo "export CYPRESS_DRUSH_IS_PANTHEON='pr-${CIRCLE_PULL_REQUEST##*/}.${PANTHEON_UUID}'"
+            ) >> $BASH_ENV
+            source $BASH_ENV
+
+      - run:
+          name: Create the test user
+          command: |
+            ## Make it so it doesn't fail if the user already exists
+            terminus -n drush "$PR_ENVIRONMENT" -- user-create cypress --mail="cypress@mailinator.com" --password="cypress" || true
+            terminus -n drush "$PR_ENVIRONMENT" -- user-add-role administrator cypress || true
+
+      - run:
+          name: Install Cypress
+          command: npm ci
+          path: tests/cypress
+
+      - run:
+          name: Run Tests
+          command: |
+            shopt -s globstar
+            circleci tests glob cypress/e2e/**/*.cy.js | circleci tests split --split-by=timings > /tmp/tests-to-run
+            ./node_modules/.bin/cypress run -s $(cat /tmp/tests-to-run)
+          path: tests/cypress
+
+      - run:
+          when: always
+          name: Generate Report
+          command: npm run merge:reports
+          path: tests/cypress
+
+      - store_test_results:
+          path: tests/cypress/cypress/junit
+
+      - store_artifacts:
+          path: tests/cypress/cypress/
   push_storybook:
       docker:
         - image: *CIMG_NODE
