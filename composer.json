@@ -21,6 +21,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/kanopi/shrubs"
         }
     ],
     "require": {
@@ -79,6 +83,7 @@
         "drupal/yoast_seo": "^1.7",
         "drupal/youtube": "^1.2",
         "drush/drush": "^10",
+        "kanopi/shrubs": "^0.2.1",
         "joachim-n/composer-manifest": "^1.0",
         "oomphinc/composer-installers-extender": "2.0.0",
         "rvtraveller/qs-composer-installer": "^1.1",
@@ -150,7 +155,8 @@
             "drupal-library",
             "npm-asset",
             "bower-asset",
-            "quicksilver-script"
+            "quicksilver-script",
+             "cypress-support"
         ],
         "installer-paths": {
             "docroot/core": ["type:drupal-core"],
@@ -163,7 +169,8 @@
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
             "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"],
-            "docroot/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+            "docroot/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"],
+            "tests/cypress/cypress/support/{$name}": ["type:cypress-support"]
         },
         "drupal-scaffold": {
             "locations": {
