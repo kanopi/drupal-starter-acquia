@@ -62,7 +62,7 @@
         ]
     },
     "scripts": {
-        "lint-php": "find web/modules/custom docroot/themes/custom -not -path '*/node_modules/*' -name '*.php' -exec php -l {} \\;",
+        "lint-php": "find docroot/modules/custom docroot/themes/custom -not -path '*/node_modules/*' -name '*.php' -exec php -l {} \\;",
         "code-sniff-modules": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/modules/custom ",
         "code-sniff-themes": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/themes/custom ",
         "code-sniff": [
