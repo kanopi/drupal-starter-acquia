@@ -17,7 +17,7 @@ echo "Clear cache"
 drush10 @$drush_alias cr
 
 echo "Import config"
-drush10 @$drush_alias cim --source=../config/sync -y
+drush10 @$drush_alias cim -y
 
 echo "Update modules"
 drush10 @$drush_alias updb -y
