@@ -110,7 +110,7 @@ services:
 
       online:
         - |
-          PROJECT_SLUG="github/kanopi/frick"
+          PROJECT_SLUG="github/$TUGBOAT_GITHUB_OWNER/$TUGBOAT_GITHUB_REPO"
           DATA="{\"branch\":\"$TUGBOAT_GITHUB_HEAD\",\"parameters\":{\"run_post_build_tests\":true, \"target_url\": \"$TUGBOAT_SERVICE_URL\"}}"
           echo $DATA
           curl -fsSLv \
