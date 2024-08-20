@@ -61,7 +61,7 @@ services:
 
         # Update node packages and compile theme
         - |
-          cd ${DOCROOT}/themes/custom/frick
+          cd ${DOCROOT}/themes/custom/THEME
           npm install
           npm run build:prod
 
@@ -96,7 +96,7 @@ services:
         - composer install
         # Update node packages and compile theme
         - |
-          cd ${DOCROOT}/themes/custom/frick
+          cd ${DOCROOT}/themes/custom/THEME
           npm install
           npm run build:prod
 
