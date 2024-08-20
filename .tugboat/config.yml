@@ -69,7 +69,7 @@ services:
         - |
           cd ${DOCROOT}
           drush sa
-          drush sql:sync @frick.dev @self -y
+          drush sql:sync @XXXYYY.dev @self -y
           drush cr
 
 
@@ -82,7 +82,7 @@ services:
         # Create Cypress users
         - |
           cd ${DOCROOT}
-          drush user-create cypress --mail="frick_cypress@mailinator.com" --password="cypress" || true
+          drush user-create cypress --mail="kanopi_cypress@mailinator.com" --password="cypress" || true
           drush user-add-role administrator cypress || true
 
 
@@ -110,7 +110,6 @@ services:
 
       online:
         - |
-
           PROJECT_SLUG="github/kanopi/frick"
           DATA="{\"branch\":\"$TUGBOAT_GITHUB_HEAD\",\"parameters\":{\"run_post_build_tests\":true, \"target_url\": \"$TUGBOAT_SERVICE_URL\"}}"
           echo $DATA
