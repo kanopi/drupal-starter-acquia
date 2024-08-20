@@ -55,3 +55,6 @@ $config['search_api.server.acquia_search_server'] = [
     ],
   ],
 ];
+
+// No Memcache on Tugboat
+
