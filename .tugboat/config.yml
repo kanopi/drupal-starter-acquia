@@ -2,7 +2,6 @@ version: 1
 services:
   # What to call the service hosting the site.
   php:
-    # Use PHP 7.x with Apache to serve the WordPress site; this syntax pulls in the latest version of PHP 7
     image: tugboatqa/php:8.3-apache
 
     # Set this as the default service. This does a few things
@@ -12,15 +11,8 @@ services:
     default: true
 
     # Wait until the mysql service is done building
-    depends: mysql
-
-    # Browser testings
-    urls:
-      - url: /
-        screenshot:
-          enabled: true
-        visualdiff:
-          enabled: true
+    depends:
+      - mysql
 
     # A set of commands to run while building this service
     commands:
@@ -32,10 +24,6 @@ services:
         - docker-php-ext-install opcache zip
         - docker-php-ext-enable opcache zip
         - a2enmod headers rewrite
-
-        # Install drush-launcher, if desired.
-        - wget -O /usr/local/bin/drush https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar
-        - chmod +x /usr/local/bin/drush
 
         # Set memory limit for php
         - echo "memory_limit = 512M" >> /usr/local/etc/php/conf.d/my-php.ini
@@ -53,7 +41,7 @@ services:
         - ln -snf "${TUGBOAT_ROOT}/docroot" "${DOCROOT}"
 
         # Install node.
-        - curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+        - curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
         - apt-get install -y nodejs
         - node --version
 
@@ -68,11 +56,14 @@ services:
         # Install/update packages managed by composer, including drush.
         - composer install
 
+        # Use drush provided by composer.
+        - ln -sf ${TUGBOAT_ROOT}/vendor/bin/drush /usr/local/bin/drush
+
         # Update node packages and compile theme
         - |
           cd ${DOCROOT}/themes/custom/THEME
           npm install
-          npm run build
+          npm run build:prod
 
         # Update the DB.
         - |
@@ -88,6 +79,12 @@ services:
           chmod -R 777 "${DOCROOT}/sites/default/files"
           chgrp -R www-data "${DOCROOT}/sites/default/files"
 
+        # Create Cypress users
+        - |
+          cd ${DOCROOT}
+          drush user-create cypress --mail="kanopi_cypress@mailinator.com" --password="cypress" || true
+          drush user-add-role administrator cypress || true
+
 
       # Commands that build the site. This is where you would add things
       # like feature reverts or any other drush commands required to
@@ -99,9 +96,9 @@ services:
         - composer install
         # Update node packages and compile theme
         - |
-          cd ${DOCROOT}/themes/custom/hanson
+          cd ${DOCROOT}/themes/custom/THEME
           npm install
-          npm run build
+          npm run build:prod
 
         - drush cache:rebuild
         - drush updatedb -y || true
@@ -110,11 +107,21 @@ services:
         - drush --debug cim -y || true
         - drush cr
 
-  # What to call the service hosting MySQL. This name also acts as the
-  # hostname to access the service by from the php service.
-  mysql:
 
-    # Use the latest available 5.x version of MySQL
+      online:
+        - |
+          PROJECT_SLUG="github/$TUGBOAT_GITHUB_OWNER/$TUGBOAT_GITHUB_REPO"
+          DATA="{\"branch\":\"$TUGBOAT_GITHUB_HEAD\",\"parameters\":{\"run_post_build_tests\":true, \"target_url\": \"$TUGBOAT_SERVICE_URL\"}}"
+          echo $DATA
+          curl -fsSLv \
+          -X POST \
+          --header 'Content-Type: application/json' \
+          --header 'Accept: application/json' \
+          --header "Circle-Token: $CIRCLE_TOKEN" \
+          -d "${DATA}" \
+          https://circleci.com/api/v2/project/${PROJECT_SLUG}/pipeline
+
+  mysql:
     image: tugboatqa/mysql:5
 
     # A set of commands to run while building this service
@@ -124,13 +131,13 @@ services:
         - mysql -e "SET GLOBAL max_allowed_packet=536870912;"
 
 
-  solr:
-    image: tugboatqa/solr:8.6
-    checkout: true
-    commands:
-      init:
-        - su -s /bin/sh -c "solr create_core -c drupal_solr -force" solr
-
-      build:
-        - cd "${SOLR_HOME}/drupal_solr" && rm -rf conf
-        - cd "${SOLR_HOME}/drupal_solr" && ln -snf "${TUGBOAT_ROOT}/.tugboat/config/solr" conf
+#  solr:
+#    image: tugboatqa/solr:8.6
+#    checkout: true
+#    commands:
+#      init:
+#        - su -s /bin/sh -c "solr create_core -c drupal_solr -force" solr
+#
+#      build:
+#        - cd "${SOLR_HOME}/drupal_solr" && rm -rf conf
+#        - cd "${SOLR_HOME}/drupal_solr" && ln -snf "${TUGBOAT_ROOT}/.tugboat/config/solr" conf

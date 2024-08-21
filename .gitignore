@@ -52,7 +52,9 @@ docroot/web.config
 # repository as a custom upstream. The .gitignore file
 # is not modified in the GitHub PR workflow.
 
-docroot/themes/custom/*/dist
+docroot/themes/custom/**/*/dist
+tests/cypress/cypress/support/shrubs
+node_modules
 
 # :::::::::::::::::::::: cut ::::::::::::::::::::::
 

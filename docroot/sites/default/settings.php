@@ -873,16 +873,18 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # $settings['migrate_file_public_path'] = '';
 # $settings['migrate_file_private_path'] = '';
 
-
+if (isset($_ENV['AH_SITE_GROUP']) && file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/' . $_ENV['AH_SITE_GROUP'] . '/' . $_ENV['AH_SITE_GROUP'] . '-settings.inc';
+}
 
 $settings['config_sync_directory'] = '../config/';
 
+// Acquia Memcache settings
 $repo_root = dirname(DRUPAL_ROOT);
 $memcacheSettingsFile = $repo_root . '/vendor/acquia/memcache-settings/memcache.settings.php';
 if (file_exists($memcacheSettingsFile)) {
   require $memcacheSettingsFile;
 }
-
 
 /**
  * Load local development override configuration, if available.

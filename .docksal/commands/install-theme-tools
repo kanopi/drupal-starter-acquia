@@ -28,7 +28,7 @@ lightning='\xE2\x9A\xA1'
 drop='\xF0\x9F\x92\xA7'
 shark='\xF0\x9F\xA6\x88'
 gear='\xEF\xB8\x8F'
-watch_command='fin npm run develop'
+watch_command='fin npm run watch'
 
 #-------------------------- Settings --------------------------------
 
@@ -43,23 +43,12 @@ echo -e "\n${yellow} ${shark} Building tools needed for the theme. ${shark}${NC}
 echo -e "${NC}This should take ~8 minutes on an empty cache.${NC}"
 echo -e "${green}${divider}${NC}"
 
-# Critical.
-echo -e "\n${yellow} ${hospital} Installing tools needed for Critical ${hospital}${NC}"
-echo -e "${green}${divider}${NC}"
-sudo apt update
-sudo apt install -yq --no-install-recommends dh-autoreconf libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 libnss3
-
 # Move to the theme.
 echo -e "\n${yellow} ${rocket} To the theme! ${rocket}${NC}"
 echo -e "${yellow} ${FULL_THEME_PATH}${NC}"
 echo -e "${green}${divider}${NC}"
 cd ${FULL_THEME_PATH}
 
-# Check for and remove the 'node_modules' folder for good measure before we install.
-if [ -d "$node_modules" ]; then
-  echo "removing node_modules folder"
-  rm -R node_modules
-fi
 
 # Runs NPM Install.
 echo -e "\n${yellow} ${construction} Install NPM ${construction}${NC}"
@@ -72,15 +61,14 @@ echo "Theme node version: ${NODE_VERSION}"
 nvm install ${NODE_VERSION}
 nvm alias default ${NODE_VERSION}
 nvm use
-npm install
+npm ci
 
-# Run Storybook Develop.
-echo -e "\n${yellow} ${construction} Running Storybook Develop ${construction}${NC}"
+# Compile css
+echo -e "\n${yellow} ${construction} Compiling theme ${construction}${NC}"
 echo -e "${green}${divider}${NC}"
-npm run build
+npm run build:prod
 
 # Finish.
 echo -e "\n${yellow} ${party} Theme rebuilt!!! ${reverseparty}${NC}"
 echo -e "${NC}Run ${yellow}${watch_command}${NC} to watch${NC}"
-echo -e "${NC}Then, storybook will run at ${yellow}http://storybook.${VIRTUAL_HOST}${NC}"
-echo -e "${green}${divider}${NC}"
+

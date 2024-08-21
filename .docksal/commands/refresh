@@ -143,3 +143,9 @@ if [[ "${ELEMENTS}" = "all" ]] || [[ "${ELEMENTS}" == "files" ]]; then
 fi
 
 echo "Refresh Done!"
+
+echo "Create default admin user for Cypress tests."
+cd "${PROJECT_ROOT}/${DOCROOT}"
+drush user-create cypress --mail="kanopi_cypress@mailinator.com" --password="cypress" || true
+drush user-add-role administrator cypress
+

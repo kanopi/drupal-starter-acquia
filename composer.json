@@ -1,6 +1,6 @@
 {
-    "name": "kanopi/drupal-acquia",
-    "description": "Project template for Drupal projects with composer and docksal",
+    "name": "kanopi/drupal-starter-acquia",
+    "description": "Starter for integrating with Acquia",
     "type": "project",
     "license": "GPL-2.0+",
     "authors": [
@@ -21,10 +21,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/woredeyonas/Drupal-Recipe-Unpack.git"
         }
     ],
     "require": {
@@ -34,20 +30,19 @@
         "acquia/memcache-settings": "^1.2",
         "composer/installers": "^2.3",
         "cweagans/composer-patches": "^1.7",
-        "drupal/core-composer-scaffold": "^10.3",
-        "drupal/core-recommended": "^10.3",
-        "drupal/core-vendor-hardening": "^10.3",
+        "drupal/admin_toolbar": "^3.5",
+        "drupal/core-composer-scaffold": "^11.0",
+        "drupal/core-recommended": "^11.0",
+        "drupal/core-vendor-hardening": "^11.0",
         "drupal/memcache": "^2.5",
-        "drush/drush": "^12.5",
-        "ewcomposer/unpack": "dev-master",
+        "drush/drush": "^13.0",
         "joachim-n/composer-manifest": "^1.0",
-        "kanopi/shrubs": "^0.2.5",
+        "kanopi/shrubs": "^0.2.11",
         "oomphinc/composer-installers-extender": "^2.0.0"
     },
     "require-dev": {
         "drupal/coder": "^8.3",
-        "drupal/core-dev": "^10.3",
-        "drupal/devel": "^5.1",
+        "drupal/core-dev": "^11.0",
         "mglaman/phpstan-drupal": "^1.2",
         "palantirnet/drupal-rector": "^0.20.3"
     },
@@ -120,7 +115,9 @@
         "installer-types": [
             "drupal-library",
             "npm-asset",
-            "bower-asset"
+            "bower-asset",
+            "cypress-support",
+            "cypress-e2e"
         ],
         "installer-paths": {
             "docroot/core": ["type:drupal-core"],
