@@ -20,9 +20,10 @@ services:
       init:
         # Install opcache and mod-rewrite.
         - apt-get update
-        - apt-get install libzip-dev
+        - apt-get install libzip-dev libmemcached-dev zlib1g-dev libssl-dev
+        - echo yes '' | pecl install -f memcached-3.2.0
         - docker-php-ext-install opcache zip
-        - docker-php-ext-enable opcache zip
+        - docker-php-ext-enable opcache zip memcached
         - a2enmod headers rewrite
 
         # Set memory limit for php
@@ -120,6 +121,9 @@ services:
           --header "Circle-Token: $CIRCLE_TOKEN" \
           -d "${DATA}" \
           https://circleci.com/api/v2/project/${PROJECT_SLUG}/pipeline
+
+  memcached:
+    image: tugboatqa/memcached:latest
 
   mysql:
     image: tugboatqa/mysql:5

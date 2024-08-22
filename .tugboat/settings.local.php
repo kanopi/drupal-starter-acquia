@@ -56,5 +56,9 @@ $config['search_api.server.acquia_search_server'] = [
   ],
 ];
 
-// No Memcache on Tugboat
+// Memcache on Tugboat
+$settings['memcache']['servers'] = ['memcached:11211' => 'default'];
+$settings['memcache']['bins'] = ['default' => 'default'];
+$settings['memcache']['key_prefix'] = '';
+$settings['cache']['default'] = 'cache.backend.memcache';
 
