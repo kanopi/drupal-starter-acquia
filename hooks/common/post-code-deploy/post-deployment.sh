@@ -14,13 +14,13 @@ drush_alias=$site'.'$target_env
 echo "Alias: " $drush_alias
 
 echo "Clear cache"
-drush10 @$drush_alias cr
+drush @$drush_alias cr
 
 echo "Import config"
-drush10 @$drush_alias cim --source=../config/sync -y
+drush @$drush_alias cim -y
 
 echo "Update modules"
-drush10 @$drush_alias updb -y
+drush @$drush_alias updb -y
 
 echo "Clear cache"
-drush10 @$drush_alias cr
+drush @$drush_alias cr
