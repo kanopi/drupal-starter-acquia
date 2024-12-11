@@ -1,12 +1,14 @@
 version: "2.1"
 
 services:
+  web:
+    environment:
+      - APACHE_FILE_PROXY
   cli:
     environment:
       - COMPOSER_MEMORY_LIMIT=-1
       - THEME
       - ACQUIA_SITE
-      - APACHE_FILE_PROXY
     volumes:
       - ${PROJECT_ROOT}/.docksal/etc/drush:/etc/drush:ro
 
