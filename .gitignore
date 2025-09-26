@@ -87,6 +87,9 @@ docroot/sites/simpletest
 .idea
 .vscode
 
+# Ignore Claude Code files
+.claude*
+
 # Packages #
 ############
 *.7z
