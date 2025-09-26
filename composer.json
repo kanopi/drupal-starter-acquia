@@ -62,9 +62,9 @@
         ]
     },
     "scripts": {
-        "lint-php": "find docroot/modules/custom docroot/themes/custom -not -path '*/node_modules/*' -name '*.php' -exec php -l {} \\;",
-        "code-sniff-modules": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/modules/custom ",
-        "code-sniff-themes": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml docroot/themes/custom ",
+        "lint-php": "find web/modules/custom web/themes/custom -not -path '*/node_modules/*' -name '*.php' -exec php -l {} \\;",
+        "code-sniff-modules": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml web/modules/custom ",
+        "code-sniff-themes": "vendor/bin/phpcs --ignore=*/node_modules/* --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md,yml web/themes/custom ",
         "code-sniff": [
             "@code-sniff-modules",
             "@code-sniff-themes"
@@ -85,7 +85,11 @@
         ],
         "phpstan": [
             "Composer\\Config::disableProcessTimeout",
-            "vendor/bin/phpstan analyse --memory-limit=-1 docroot/modules/custom docroot/themes/custom"
+            "vendor/bin/phpstan analyse --memory-limit=-1 web/modules/custom web/themes/custom"
+        ],
+        "phpstan-ci": [
+            "Composer\\Config::disableProcessTimeout",
+            "vendor/bin/phpstan analyse --memory-limit=-1 --error-format=junit --no-progress web/modules/custom web/themes/custom > phpstan-report.xml"
         ],
         "phpstan-ci": [
             "Composer\\Config::disableProcessTimeout",
@@ -93,19 +97,19 @@
         ],
         "rector-modules": [
             "Composer\\Config::disableProcessTimeout",
-            "vendor/bin/rector process docroot/modules/custom/ --dry-run"
+            "vendor/bin/rector process web/modules/custom/ --dry-run"
         ],
         "rector-themes": [
             "Composer\\Config::disableProcessTimeout",
-            "vendor/bin/rector process docroot/themes/custom/ --dry-run"
+            "vendor/bin/rector process web/themes/custom/ --dry-run"
         ],
         "rector-fix-modules": [
             "Composer\\Config::disableProcessTimeout",
-            "vendor/bin/rector process docroot/modules/custom/"
+            "vendor/bin/rector process web/modules/custom/"
         ],
         "rector-fix-themes": [
             "Composer\\Config::disableProcessTimeout",
-            "vendor/bin/rector process docroot/themes/custom/"
+            "vendor/bin/rector process web/themes/custom/"
         ],
         "rector-fix": [
             "@rector-fix-modules",
@@ -169,8 +173,8 @@
             "cypress-e2e"
         ],
         "installer-paths": {
-            "docroot/core": ["type:drupal-core"],
-            "docroot/libraries/{$name}": [
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
@@ -186,7 +190,7 @@
         },
         "drupal-scaffold": {
             "locations": {
-                "web-root": "./docroot"
+                "web-root": "./web"
             },
             "file-mapping": {
                 "[web-root]/.htaccess": false,

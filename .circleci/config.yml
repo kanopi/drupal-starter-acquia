@@ -1,6 +1,6 @@
 # https://circleci.com/docs/2.0/workflows/#using-workspaces-to-share-data-among-jobs
 THEME_NAME: &THEME_NAME "THEME"
-THEME_PATH: &THEME_PATH "docroot/themes/custom/THEME"
+THEME_PATH: &THEME_PATH "web/themes/custom/THEME"
 ACQUIA_REPO: &ACQUIA_REPO "xxxxyyy@svn-45062.prod.hosting.acquia.com:XXXYYY.git"
 ACQUIA_SITE_ID: &ACQUIA_SITE_ID "XXXYYY"
 CYPRESS_NODE_VERSION: &CYPRESS_NODE_VERSION "20.16.0" # Matches NVMRC file.
@@ -96,7 +96,7 @@ jobs:
       - restore_cache:
           name: Restore Node cache
           keys:
-            - node_cache-{{ checksum "docroot/themes/custom/THEME/package-lock.json" }}
+            - node_cache-{{ checksum "web/themes/custom/THEME/package-lock.json" }}
             - node_cache-
       - run:
           name: Install Node Packages.
@@ -105,9 +105,9 @@ jobs:
 
       - save_cache:
           name: Save node cache
-          key: node_cache-{{ checksum "docroot/themes/custom/THEME/package-lock.json" }}
+          key: node_cache-{{ checksum "web/themes/custom/THEME/package-lock.json" }}
           paths:
-            - docroot/themes/custom/THEME/node_modules
+            - web/themes/custom/THEME/node_modules
       - run:
           name: Compile CSS
           command: npm run build:prod
@@ -319,7 +319,7 @@ workflows:
                   cp -vr ./assets/dist "$THEME_PATH/assets"
 
             - ci-tools/remove-files:
-                docroot: "docroot"
+                docroot: "web"
           post-push:
             - slack/notify:
                 message: "Finished push to Acquia\n
