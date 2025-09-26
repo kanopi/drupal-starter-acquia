@@ -1,6 +1,6 @@
 # https://circleci.com/docs/2.0/workflows/#using-workspaces-to-share-data-among-jobs
 THEME_NAME: &THEME_NAME "THEME"
-THEME_PATH: &THEME_PATH "docroot/themes/custom/THEME"
+THEME_PATH: &THEME_PATH "web/themes/custom/THEME"
 ACQUIA_REPO: &ACQUIA_REPO "xxxxyyy@svn-45062.prod.hosting.acquia.com:XXXYYY.git"
 ACQUIA_SITE_ID: &ACQUIA_SITE_ID "XXXYYY"
 CYPRESS_NODE_VERSION: &CYPRESS_NODE_VERSION "20.16.0" # Matches NVMRC file.
@@ -96,7 +96,7 @@ jobs:
       - restore_cache:
           name: Restore Node cache
           keys:
-            - node_cache-{{ checksum "docroot/themes/custom/THEME/package-lock.json" }}
+            - node_cache-{{ checksum "web/themes/custom/THEME/package-lock.json" }}
             - node_cache-
       - run:
           name: Install Node Packages.
@@ -105,9 +105,9 @@ jobs:
 
       - save_cache:
           name: Save node cache
-          key: node_cache-{{ checksum "docroot/themes/custom/THEME/package-lock.json" }}
+          key: node_cache-{{ checksum "web/themes/custom/THEME/package-lock.json" }}
           paths:
-            - docroot/themes/custom/THEME/node_modules
+            - web/themes/custom/THEME/node_modules
       - run:
           name: Compile CSS
           command: npm run build:prod
@@ -167,63 +167,116 @@ jobs:
 #          webhook: https://hooks.slack.com/services/T02BTKQ5F/B0225B1RPV1/9999111100000
 
 workflows:
-  version: 2
-  static-tests:
-    when:
-      not:
-        or:
-          - << pipeline.parameters.run_post_build_tests >>
-          - equal: [ scheduled_pipeline, << pipeline.trigger_source >> ]
-          - equal: [ api, << pipeline.trigger_source >> ]
+  PHPstan:
     jobs:
       - ci-tools/composer:
           tag: *CIMG_PHP_TAG
-          name: "phpstan"
+          name: "PHPstan"
           context: kanopi-code
-          command: 'phpstan'
-          report-title: 'phpstan'
-          save-output: true
+          command: 'phpstan-ci'
           post-to-github: true
+          post-artifact-to-github-when: on_fail
+          report-title: ":x: phpstan"
           filters:
             branches:
               ignore:
                 - main
+          post-steps:
+            - store_test_results:
+                path: phpstan-report.xml
+            - store_artifacts:
+                path: phpstan-report.xml
+                destination: phpstan
+  PHPcs:
+    jobs:
       - ci-tools/composer:
           tag: *CIMG_PHP_TAG
-          name: "phpcs"
-          report-title: 'phpcs'
+          name: "PHPcs"
           context: kanopi-code
-          command: 'code-sniff'
-          save-output: true
+          command: 'code-sniff-ci'
           post-to-github: true
+          post-artifact-to-github-when: on_fail
+          report-title: ":x: phpcs"
           filters:
             branches:
               ignore:
                 - main
+          post-steps:
+            - store_test_results:
+                path: phpcs-modules-report.xml
+            - store_artifacts:
+                path: phpcs-modules-report.xml
+                destination: phpcs-modules
+            - store_test_results:
+                path: phpcs-themes-report.xml
+            - store_artifacts:
+                path: phpcs-themes-report.xml
+                destination: phpcs-themes
+  Rector - modules:
+    jobs:
       - ci-tools/composer:
           tag: *CIMG_PHP_TAG
-          name: "rector-modules"
-          report-title: 'rector-modules'
+          name: "Rector modules"
           context: kanopi-code
-          command: 'rector-modules'
-          save-output: true
+          command: 'rector-modules-ci'
           post-to-github: true
+          post-artifact-to-github-when: on_fail
+          report-title: ":x: rector-modules"
           filters:
             branches:
               ignore:
                 - main
+          post-steps:
+            - store_test_results:
+                path: rector-modules-report.xml
+            - store_artifacts:
+                path: rector-modules-report.xml
+                destination: rector-modules
+  Rector - themes:
+    jobs:
       - ci-tools/composer:
           tag: *CIMG_PHP_TAG
-          name: "rector-theme"
-          report-title: 'rector-theme'
+          name: "Rector themes"
           context: kanopi-code
-          command: 'rector-themes'
-          save-output: true
+          command: 'rector-themes-ci'
           post-to-github: true
+          post-artifact-to-github-when: on_fail
+          report-title: ":x: rector-themes"
           filters:
             branches:
               ignore:
                 - main
+          post-steps:
+            - store_test_results:
+                path: rector-themes-report.xml
+            - store_artifacts:
+                path: rector-themes-report.xml
+                destination: rector-themes
+  Twig lint:
+    jobs:
+      - ci-tools/composer:
+          tag: *CIMG_PHP_TAG
+          name: "Twig lint"
+          context: kanopi-code
+          command: 'twig-lint-ci'
+          post-to-github: true
+          post-artifact-to-github-when: on_fail
+          report-title: ":x: twig-lint"
+          filters:
+            branches:
+              ignore:
+                - main
+          post-steps:
+            - store_test_results:
+                path: twig-modules-report.xml
+            - store_artifacts:
+                path: twig-modules-report.xml
+                destination: twig-modules
+            - store_test_results:
+                path: twig-themes-report.xml
+            - store_artifacts:
+                path: twig-themes-report.xml
+                destination: twig-themes
 
   deploy:
     jobs:
@@ -266,7 +319,7 @@ workflows:
                   cp -vr ./assets/dist "$THEME_PATH/assets"
 
             - ci-tools/remove-files:
-                docroot: "docroot"
+                docroot: "web"
           post-push:
             - slack/notify:
                 message: "Finished push to Acquia\n
@@ -311,6 +364,32 @@ workflows:
             - ci-tools/post-to-github-commit:
                 body: '@$(ls /opt/reports/*/comment.txt)'
                 when: 'always'
+          filters:
+            branches:
+              ignore:
+                - main
+      - ci-tools/pa11y:
+          context: kanopi-code
+          urls: "<< pipeline.parameters.target_url >>"
+          post-steps:
+            - ci-tools/post-to-github-commit:
+                body: '@/tmp/pa11y-ci-results.txt'
+                when: 'on_fail'
+          filters:
+            branches:
+              ignore:
+                - main
+      - ci-tools/backstopjs:
+          context: kanopi-code
+          advanced-config: true
+          search-find: 'TEST_URL'
+          search-replace: '<< pipeline.parameters.target_url >>'
+          post-steps:
+            - ci-tools/post-artifact-to-github:
+                body-prefix: "❌ There was a failure. Click here to view the report:"
+                body-title: BackstopJS
+                search-for: html_report/index.html
+                when: 'on_fail'
           filters:
             branches:
               ignore:
