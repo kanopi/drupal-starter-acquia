@@ -42,7 +42,7 @@ This is a modern Drupal 11.2 project set up for Acquia hosting that uses Docksal
 - `twig-fix` - Auto-fix Twig template formatting issues
 
 ### Theme Development (run with `fin npm run` in theme directory)
-Theme is located at `web/themes/custom/THEME` and uses Storybook + Webpack:
+Theme is located at `docroot/themes/custom/THEME` and uses Storybook + Webpack:
 - `develop` - Watch mode for Storybook and Webpack
 - `storybook` - Start Storybook development server
 - `build` - Build production Storybook
@@ -51,7 +51,7 @@ Theme is located at `web/themes/custom/THEME` and uses Storybook + Webpack:
 ## Project Architecture
 
 ### Directory Structure
-- `web/` - Drupal web root (modern Drupal standard)
+- `docroot/` - Drupal web root (Acquia standard)
   - `modules/custom/` - Custom Drupal modules
   - `themes/custom/THEME/` - Custom theme based on KDCL
   - `sites/` - Drupal multisite configuration
@@ -87,7 +87,7 @@ Theme is located at `web/themes/custom/THEME` and uses Storybook + Webpack:
 ## Important Notes
 
 ### Modern Drupal Features
-- Uses `web/` directory structure (Drupal community standard)
+- Uses `docroot/` directory structure (Acquia hosting standard)
 - Drupal 11.2 with latest security updates
 - Support for Drupal recipes via `drupal/core-recipe-unpack`
 - Default content module for easy content seeding
