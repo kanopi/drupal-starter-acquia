@@ -87,6 +87,7 @@ Theme is located at `docroot/themes/custom/THEME` and uses Storybook + Webpack:
 ## Important Notes
 
 ### Modern Drupal Features
+- **CRITICAL: Acquia requires `docroot/` as the web root — NEVER use `web/`.** All installer paths, composer scripts, scaffold locations, CI configs, and Tugboat configs must reference `docroot/`, not `web/`.
 - Uses `docroot/` directory structure (Acquia hosting standard)
 - Drupal 11.2 with latest security updates
 - Support for Drupal recipes via `drupal/core-recipe-unpack`
