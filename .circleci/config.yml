@@ -379,21 +379,6 @@ workflows:
             branches:
               ignore:
                 - main
-      - ci-tools/backstopjs:
-          context: kanopi-code
-          advanced-config: true
-          search-find: 'TEST_URL'
-          search-replace: '<< pipeline.parameters.target_url >>'
-          post-steps:
-            - ci-tools/post-artifact-to-github:
-                body-prefix: "❌ There was a failure. Click here to view the report:"
-                body-title: BackstopJS
-                search-for: html_report/index.html
-                when: 'on_fail'
-          filters:
-            branches:
-              ignore:
-                - main
 #  CMS Updates orbs needs to have acquia as an option.
 #  automated-updates:
 #    when:
